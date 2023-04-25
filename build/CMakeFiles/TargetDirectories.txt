@@ -1,0 +1,3 @@
+C:/Users/wobo5/OneDrive/바탕 화면/VSCode/cmake_project_example/build/CMakeFiles/cmake_project_example.dir
+C:/Users/wobo5/OneDrive/바탕 화면/VSCode/cmake_project_example/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/wobo5/OneDrive/바탕 화면/VSCode/cmake_project_example/build/CMakeFiles/ZERO_CHECK.dir
