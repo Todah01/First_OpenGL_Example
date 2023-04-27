@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/wobo5/OneDrive/\ubc14\ud0d5 \ud654\uba74/VSCode/OpenGL/first_project_example/build/CMakeFiles/dep_glfw"
+		},
+		{
+			"file" : "C:/Users/wobo5/OneDrive/\ubc14\ud0d5 \ud654\uba74/VSCode/OpenGL/first_project_example/build/CMakeFiles/4bfc140e541c2ce65605c2018aa7b190/dep_glfw.rule"
+		},
+		{
+			"file" : "C:/Users/wobo5/OneDrive/\ubc14\ud0d5 \ud654\uba74/VSCode/OpenGL/first_project_example/build/CMakeFiles/cd6b57a334f928371bd7b744f0b6a921/dep_glfw-complete.rule"
+		},
+		{
+			"file" : "C:/Users/wobo5/OneDrive/\ubc14\ud0d5 \ud654\uba74/VSCode/OpenGL/first_project_example/build/CMakeFiles/a5df0dc09b53620dd7421085bfe4b3f6/dep_glfw-build.rule"
+		},
+		{
+			"file" : "C:/Users/wobo5/OneDrive/\ubc14\ud0d5 \ud654\uba74/VSCode/OpenGL/first_project_example/build/CMakeFiles/a5df0dc09b53620dd7421085bfe4b3f6/dep_glfw-configure.rule"
+		},
+		{
+			"file" : "C:/Users/wobo5/OneDrive/\ubc14\ud0d5 \ud654\uba74/VSCode/OpenGL/first_project_example/build/CMakeFiles/a5df0dc09b53620dd7421085bfe4b3f6/dep_glfw-download.rule"
+		},
+		{
+			"file" : "C:/Users/wobo5/OneDrive/\ubc14\ud0d5 \ud654\uba74/VSCode/OpenGL/first_project_example/build/CMakeFiles/a5df0dc09b53620dd7421085bfe4b3f6/dep_glfw-install.rule"
+		},
+		{
+			"file" : "C:/Users/wobo5/OneDrive/\ubc14\ud0d5 \ud654\uba74/VSCode/OpenGL/first_project_example/build/CMakeFiles/a5df0dc09b53620dd7421085bfe4b3f6/dep_glfw-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/wobo5/OneDrive/\ubc14\ud0d5 \ud654\uba74/VSCode/OpenGL/first_project_example/build/CMakeFiles/a5df0dc09b53620dd7421085bfe4b3f6/dep_glfw-patch.rule"
+		},
+		{
+			"file" : "C:/Users/wobo5/OneDrive/\ubc14\ud0d5 \ud654\uba74/VSCode/OpenGL/first_project_example/build/CMakeFiles/a5df0dc09b53620dd7421085bfe4b3f6/dep_glfw-test.rule"
+		},
+		{
+			"file" : "C:/Users/wobo5/OneDrive/\ubc14\ud0d5 \ud654\uba74/VSCode/OpenGL/first_project_example/build/CMakeFiles/a5df0dc09b53620dd7421085bfe4b3f6/dep_glfw-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"dep_glfw"
+		],
+		"name" : "dep_glfw"
+	}
+}

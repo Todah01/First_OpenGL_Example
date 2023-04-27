@@ -1,0 +1,10 @@
+^C:\USERS\WOBO5\ONEDRIVE\바탕 화면\VSCODE\OPENGL\FIRST_PROJECT_EXAMPLE\BUILD\DEP_SPDLOG-PREFIX\SRC\DEP_SPDLOG-BUILD\CMAKEFILES\CCFBD318E82EFC8FCD37C0B8CE3FAFB7\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

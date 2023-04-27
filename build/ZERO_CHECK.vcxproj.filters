@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\cmake_project_example\build\CMakeFiles\02ed5c1179c2c1a518120d82fa0925ca\generate.stamp.rule">
+    <CustomBuild Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\4bfc140e541c2ce65605c2018aa7b190\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{4D0BCC2E-7F1F-3659-95AD-48278A3F3D32}</UniqueIdentifier>
+      <UniqueIdentifier>{F3BCB0ED-BEC0-31EB-A73E-47586D5A4E77}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

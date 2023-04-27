@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-build\CMakeFiles\d3d43fd2118e250cd44d53f66a520d1d\uninstall.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-build\CMakeFiles\uninstall" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4C5A778E-63A8-326C-AD50-1CD196C8E08F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/wobo5/OneDrive/\ubc14\ud0d5 \ud654\uba74/VSCode/OpenGL/first_project_example/build/CMakeFiles/dep_spdlog"
+		},
+		{
+			"file" : "C:/Users/wobo5/OneDrive/\ubc14\ud0d5 \ud654\uba74/VSCode/OpenGL/first_project_example/build/CMakeFiles/4bfc140e541c2ce65605c2018aa7b190/dep_spdlog.rule"
+		},
+		{
+			"file" : "C:/Users/wobo5/OneDrive/\ubc14\ud0d5 \ud654\uba74/VSCode/OpenGL/first_project_example/build/CMakeFiles/cd6b57a334f928371bd7b744f0b6a921/dep_spdlog-complete.rule"
+		},
+		{
+			"file" : "C:/Users/wobo5/OneDrive/\ubc14\ud0d5 \ud654\uba74/VSCode/OpenGL/first_project_example/build/CMakeFiles/476e80bbc3977a43193002c617b7e6c7/dep_spdlog-build.rule"
+		},
+		{
+			"file" : "C:/Users/wobo5/OneDrive/\ubc14\ud0d5 \ud654\uba74/VSCode/OpenGL/first_project_example/build/CMakeFiles/476e80bbc3977a43193002c617b7e6c7/dep_spdlog-configure.rule"
+		},
+		{
+			"file" : "C:/Users/wobo5/OneDrive/\ubc14\ud0d5 \ud654\uba74/VSCode/OpenGL/first_project_example/build/CMakeFiles/476e80bbc3977a43193002c617b7e6c7/dep_spdlog-download.rule"
+		},
+		{
+			"file" : "C:/Users/wobo5/OneDrive/\ubc14\ud0d5 \ud654\uba74/VSCode/OpenGL/first_project_example/build/CMakeFiles/476e80bbc3977a43193002c617b7e6c7/dep_spdlog-install.rule"
+		},
+		{
+			"file" : "C:/Users/wobo5/OneDrive/\ubc14\ud0d5 \ud654\uba74/VSCode/OpenGL/first_project_example/build/CMakeFiles/476e80bbc3977a43193002c617b7e6c7/dep_spdlog-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/wobo5/OneDrive/\ubc14\ud0d5 \ud654\uba74/VSCode/OpenGL/first_project_example/build/CMakeFiles/476e80bbc3977a43193002c617b7e6c7/dep_spdlog-patch.rule"
+		},
+		{
+			"file" : "C:/Users/wobo5/OneDrive/\ubc14\ud0d5 \ud654\uba74/VSCode/OpenGL/first_project_example/build/CMakeFiles/476e80bbc3977a43193002c617b7e6c7/dep_spdlog-test.rule"
+		},
+		{
+			"file" : "C:/Users/wobo5/OneDrive/\ubc14\ud0d5 \ud654\uba74/VSCode/OpenGL/first_project_example/build/CMakeFiles/476e80bbc3977a43193002c617b7e6c7/dep_spdlog-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"dep_spdlog"
+		],
+		"name" : "dep_spdlog"
+	}
+}

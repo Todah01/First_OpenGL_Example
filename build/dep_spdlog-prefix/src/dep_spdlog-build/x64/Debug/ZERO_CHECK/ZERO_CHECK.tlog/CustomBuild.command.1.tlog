@@ -1,0 +1,10 @@
+^C:\USERS\WOBO5\ONEDRIVE\바탕 화면\VSCODE\OPENGL\FIRST_PROJECT_EXAMPLE\BUILD\DEP_SPDLOG-PREFIX\SRC\DEP_SPDLOG-BUILD\CMAKEFILES\CCFBD318E82EFC8FCD37C0B8CE3FAFB7\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog" "-BC:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-build/spdlog.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
