@@ -1,6 +1,6 @@
-^C:\USERS\WOBO5\ONEDRIVE\바탕 화면\VSCODE\OPENGL\FIRST_PROJECT_EXAMPLE\BUILD\DEP_GLFW-PREFIX\SRC\DEP_GLFW-BUILD\CMAKEFILES\D3D43FD2118E250CD44D53F66A520D1D\GENERATE.STAMP.RULE
+^C:\USERS\WOBO5\VSCODE\OPENGL\FIRST_OPENGL_EXAMPLE\BUILD\DEP_GLFW-PREFIX\SRC\DEP_GLFW-BUILD\CMAKEFILES\E6255D55E9ACE8AE1E9CB56AF669D9B2\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw" "-BC:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-build/GLFW.sln"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw -BC:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-build/GLFW.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

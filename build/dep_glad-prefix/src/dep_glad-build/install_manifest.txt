@@ -1,0 +1,7 @@
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/install/lib/glad.lib
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/install/include/glad/glad.h
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/install/include/KHR/khrplatform.h
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/install/lib/cmake/glad/gladConfig.cmake
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/install/lib/cmake/glad/gladConfigVersion.cmake
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/install/lib/cmake/glad/gladTargets.cmake
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/install/lib/cmake/glad/gladTargets-debug.cmake

@@ -1,0 +1,156 @@
+^C:\USERS\WOBO5\VSCODE\OPENGL\FIRST_OPENGL_EXAMPLE\BUILD\CMAKEFILES\427A8F2F5921059C0A071CA8292EC9B9\DEP_GLAD-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glad-prefix/tmp/dep_glad-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glad-prefix/src/dep_glad-stamp/Debug/dep_glad-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\WOBO5\VSCODE\OPENGL\FIRST_OPENGL_EXAMPLE\BUILD\CMAKEFILES\427A8F2F5921059C0A071CA8292EC9B9\DEP_GLAD-DOWNLOAD.RULE
+setlocal
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glad-prefix\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glad-prefix/tmp/dep_glad-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glad-prefix/src/dep_glad-stamp/Debug/dep_glad-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\WOBO5\VSCODE\OPENGL\FIRST_OPENGL_EXAMPLE\BUILD\CMAKEFILES\427A8F2F5921059C0A071CA8292EC9B9\DEP_GLAD-UPDATE.RULE
+setlocal
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glad-prefix\src\dep_glad
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glad-prefix/src/dep_glad-stamp/Debug/dep_glad-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\WOBO5\VSCODE\OPENGL\FIRST_OPENGL_EXAMPLE\BUILD\CMAKEFILES\427A8F2F5921059C0A071CA8292EC9B9\DEP_GLAD-PATCH.RULE
+setlocal
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glad-prefix\src\dep_glad
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glad-prefix/src/dep_glad-stamp/Debug/dep_glad-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\WOBO5\VSCODE\OPENGL\FIRST_OPENGL_EXAMPLE\BUILD\CMAKEFILES\427A8F2F5921059C0A071CA8292EC9B9\DEP_GLAD-CONFIGURE.RULE
+setlocal
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glad-prefix\src\dep_glad-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_PREFIX=C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/install -DGLAD_INSTALL=ON "-GVisual Studio 16 2019" -Ax64 -Thost=x64 "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2019/Community" -S C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glad-prefix/src/dep_glad -B C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glad-prefix/src/dep_glad-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glad-prefix/src/dep_glad-stamp/Debug/dep_glad-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\WOBO5\VSCODE\OPENGL\FIRST_OPENGL_EXAMPLE\BUILD\CMAKEFILES\427A8F2F5921059C0A071CA8292EC9B9\DEP_GLAD-BUILD.RULE
+setlocal
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glad-prefix\src\dep_glad-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" --build . --config Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glad-prefix/src/dep_glad-stamp/Debug/dep_glad-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\WOBO5\VSCODE\OPENGL\FIRST_OPENGL_EXAMPLE\BUILD\CMAKEFILES\427A8F2F5921059C0A071CA8292EC9B9\DEP_GLAD-INSTALL.RULE
+setlocal
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glad-prefix\src\dep_glad-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" --build . --config Debug --target install
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glad-prefix/src/dep_glad-stamp/Debug/dep_glad-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\WOBO5\VSCODE\OPENGL\FIRST_OPENGL_EXAMPLE\BUILD\CMAKEFILES\427A8F2F5921059C0A071CA8292EC9B9\DEP_GLAD-TEST.RULE
+setlocal
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glad-prefix\src\dep_glad-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glad-prefix/src/dep_glad-stamp/Debug/dep_glad-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\WOBO5\VSCODE\OPENGL\FIRST_OPENGL_EXAMPLE\BUILD\CMAKEFILES\05547761663F038447A9416307C48DDE\DEP_GLAD-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/Debug/dep_glad-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glad-prefix/src/dep_glad-stamp/Debug/dep_glad-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\WOBO5\VSCODE\OPENGL\FIRST_OPENGL_EXAMPLE\BUILD\CMAKEFILES\FA8D8AA29CE525014DFB5EA31302CE4D\DEP_GLAD.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\WOBO5\VSCODE\OPENGL\FIRST_OPENGL_EXAMPLE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/wobo5/VSCode/OpenGL/first_opengl_example -BC:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build --check-stamp-file C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

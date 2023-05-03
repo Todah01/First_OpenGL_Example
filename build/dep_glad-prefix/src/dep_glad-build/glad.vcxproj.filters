@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glad-prefix\src\dep_glad-build\src\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glad-prefix\src\dep_glad-build\include\glad\glad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glad-prefix\src\dep_glad\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8F0E10EC-722D-39E0-8D81-5C921061CBFF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2F9CE240-006B-3919-9368-D1E215A1C064}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8D55FE42-7D22-35F2-A2E3-FED13F635C2A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -3,21 +3,21 @@
 
 cmake_minimum_required(VERSION 3.5)
 
-if(EXISTS "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/dep_spdlog-gitclone-lastrun.txt" AND EXISTS "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/dep_spdlog-gitinfo.txt" AND
-  "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/dep_spdlog-gitclone-lastrun.txt" IS_NEWER_THAN "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/dep_spdlog-gitinfo.txt")
+if(EXISTS "C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/dep_spdlog-gitclone-lastrun.txt" AND EXISTS "C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/dep_spdlog-gitinfo.txt" AND
+  "C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/dep_spdlog-gitclone-lastrun.txt" IS_NEWER_THAN "C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/dep_spdlog-gitinfo.txt")
   message(STATUS
     "Avoiding repeated git clone, stamp file is up to date: "
-    "'C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/dep_spdlog-gitclone-lastrun.txt'"
+    "'C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/dep_spdlog-gitclone-lastrun.txt'"
   )
   return()
 endif()
 
 execute_process(
-  COMMAND ${CMAKE_COMMAND} -E rm -rf "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog"
+  COMMAND ${CMAKE_COMMAND} -E rm -rf "C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog"
   RESULT_VARIABLE error_code
 )
 if(error_code)
-  message(FATAL_ERROR "Failed to remove directory: 'C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog'")
+  message(FATAL_ERROR "Failed to remove directory: 'C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog'")
 endif()
 
 # try the clone 3 times in case there is an odd git clone issue
@@ -27,7 +27,7 @@ while(error_code AND number_of_tries LESS 3)
   execute_process(
     COMMAND "C:/Program Files/Git/cmd/git.exe" 
             clone --no-checkout --depth 1 --no-single-branch --config "advice.detachedHead=false" "https://github.com/gabime/spdlog.git" "dep_spdlog"
-    WORKING_DIRECTORY "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src"
+    WORKING_DIRECTORY "C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src"
     RESULT_VARIABLE error_code
   )
   math(EXPR number_of_tries "${number_of_tries} + 1")
@@ -42,7 +42,7 @@ endif()
 execute_process(
   COMMAND "C:/Program Files/Git/cmd/git.exe" 
           checkout "v1.x" --
-  WORKING_DIRECTORY "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog"
+  WORKING_DIRECTORY "C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog"
   RESULT_VARIABLE error_code
 )
 if(error_code)
@@ -54,20 +54,20 @@ if(init_submodules)
   execute_process(
     COMMAND "C:/Program Files/Git/cmd/git.exe" 
             submodule update --recursive --init 
-    WORKING_DIRECTORY "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog"
+    WORKING_DIRECTORY "C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog"
     RESULT_VARIABLE error_code
   )
 endif()
 if(error_code)
-  message(FATAL_ERROR "Failed to update submodules in: 'C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog'")
+  message(FATAL_ERROR "Failed to update submodules in: 'C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog'")
 endif()
 
 # Complete success, update the script-last-run stamp file:
 #
 execute_process(
-  COMMAND ${CMAKE_COMMAND} -E copy "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/dep_spdlog-gitinfo.txt" "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/dep_spdlog-gitclone-lastrun.txt"
+  COMMAND ${CMAKE_COMMAND} -E copy "C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/dep_spdlog-gitinfo.txt" "C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/dep_spdlog-gitclone-lastrun.txt"
   RESULT_VARIABLE error_code
 )
 if(error_code)
-  message(FATAL_ERROR "Failed to copy script-last-run stamp file: 'C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/dep_spdlog-gitclone-lastrun.txt'")
+  message(FATAL_ERROR "Failed to copy script-last-run stamp file: 'C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/dep_spdlog-gitclone-lastrun.txt'")
 endif()

@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog\example\example.cpp">
+    <ClCompile Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog\example\example.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog\example\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog\example\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{B592356C-1CFF-3CA7-9E60-992937B6DA57}</UniqueIdentifier>
+      <UniqueIdentifier>{7F3DFA28-D44A-3980-AF5E-B93A124CC726}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

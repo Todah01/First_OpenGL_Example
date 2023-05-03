@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{5ECB1011-3056-3C40-9C1A-DDE758B03433}</ProjectGuid>
+    <ProjectGuid>{E071FFB4-1318-384E-A8DC-EC7E31A5253E}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -105,12 +105,12 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\476e80bbc3977a43193002c617b7e6c7\dep_spdlog-mkdir.rule">
+    <CustomBuild Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\59d2da44188d046c19076b3437a098ea\dep_spdlog-mkdir.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating directories for 'dep_spdlog'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/tmp/dep_spdlog-mkdirs.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/tmp/dep_spdlog-mkdirs.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Debug/dep_spdlog-mkdir"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Debug/dep_spdlog-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -119,13 +119,13 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-mkdir</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Creating directories for 'dep_spdlog'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Release -P "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/tmp/dep_spdlog-mkdirs.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Release -P C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/tmp/dep_spdlog-mkdirs.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Release/dep_spdlog-mkdir"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Release/dep_spdlog-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -134,13 +134,13 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-mkdir</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Creating directories for 'dep_spdlog'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/MinSizeRel -P "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/tmp/dep_spdlog-mkdirs.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/MinSizeRel -P C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/tmp/dep_spdlog-mkdirs.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/MinSizeRel/dep_spdlog-mkdir"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/MinSizeRel/dep_spdlog-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -149,13 +149,13 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-mkdir</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Creating directories for 'dep_spdlog'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/RelWithDebInfo -P "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/tmp/dep_spdlog-mkdirs.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/RelWithDebInfo -P C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/tmp/dep_spdlog-mkdirs.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/RelWithDebInfo/dep_spdlog-mkdir"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/RelWithDebInfo/dep_spdlog-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -164,21 +164,21 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-mkdir</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\476e80bbc3977a43193002c617b7e6c7\dep_spdlog-download.rule">
+    <CustomBuild Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\59d2da44188d046c19076b3437a098ea\dep_spdlog-download.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing download step (git clone) for 'dep_spdlog'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/tmp/dep_spdlog-gitclone.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/tmp/dep_spdlog-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Debug/dep_spdlog-download"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Debug/dep_spdlog-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -186,18 +186,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\dep_spdlog-gitinfo.txt;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\dep_spdlog-gitinfo.txt;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing download step (git clone) for 'dep_spdlog'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/tmp/dep_spdlog-gitclone.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/tmp/dep_spdlog-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Release/dep_spdlog-download"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Release/dep_spdlog-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -205,18 +205,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\dep_spdlog-gitinfo.txt;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\dep_spdlog-gitinfo.txt;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Performing download step (git clone) for 'dep_spdlog'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/tmp/dep_spdlog-gitclone.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/tmp/dep_spdlog-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/MinSizeRel/dep_spdlog-download"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/MinSizeRel/dep_spdlog-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -224,18 +224,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\dep_spdlog-gitinfo.txt;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\dep_spdlog-gitinfo.txt;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing download step (git clone) for 'dep_spdlog'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/tmp/dep_spdlog-gitclone.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/tmp/dep_spdlog-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/RelWithDebInfo/dep_spdlog-download"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/RelWithDebInfo/dep_spdlog-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -243,22 +243,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\dep_spdlog-gitinfo.txt;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\dep_spdlog-gitinfo.txt;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\476e80bbc3977a43193002c617b7e6c7\dep_spdlog-update.rule">
+    <CustomBuild Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\59d2da44188d046c19076b3437a098ea\dep_spdlog-update.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No update step for 'dep_spdlog'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Debug/dep_spdlog-update"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Debug/dep_spdlog-update
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -266,18 +266,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No update step for 'dep_spdlog'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Release/dep_spdlog-update"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Release/dep_spdlog-update
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -285,18 +285,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No update step for 'dep_spdlog'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/MinSizeRel/dep_spdlog-update"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/MinSizeRel/dep_spdlog-update
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -304,18 +304,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No update step for 'dep_spdlog'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/RelWithDebInfo/dep_spdlog-update"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/RelWithDebInfo/dep_spdlog-update
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -323,22 +323,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\476e80bbc3977a43193002c617b7e6c7\dep_spdlog-patch.rule">
+    <CustomBuild Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\59d2da44188d046c19076b3437a098ea\dep_spdlog-patch.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No patch step for 'dep_spdlog'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Debug/dep_spdlog-patch"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Debug/dep_spdlog-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -346,18 +346,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-update;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No patch step for 'dep_spdlog'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Release/dep_spdlog-patch"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Release/dep_spdlog-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -365,18 +365,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-update;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No patch step for 'dep_spdlog'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/MinSizeRel/dep_spdlog-patch"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/MinSizeRel/dep_spdlog-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -384,18 +384,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-update;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No patch step for 'dep_spdlog'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/RelWithDebInfo/dep_spdlog-patch"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/RelWithDebInfo/dep_spdlog-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -403,22 +403,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-update;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\476e80bbc3977a43193002c617b7e6c7\dep_spdlog-configure.rule">
+    <CustomBuild Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\59d2da44188d046c19076b3437a098ea\dep_spdlog-configure.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing configure step for 'dep_spdlog'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-build"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" "-DCMAKE_INSTALL_PREFIX=C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/install" "-GVisual Studio 16 2019" -Ax64 -Thost=x64 "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2019/Community" -S "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog" -B "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-build"
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_PREFIX=C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/install "-GVisual Studio 16 2019" -Ax64 -Thost=x64 "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2019/Community" -S C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog -B C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-build
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Debug/dep_spdlog-configure"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Debug/dep_spdlog-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -426,18 +426,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\tmp\dep_spdlog-cfgcmd.txt;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\tmp\dep_spdlog-cfgcmd.txt;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing configure step for 'dep_spdlog'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-build"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" "-DCMAKE_INSTALL_PREFIX=C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/install" "-GVisual Studio 16 2019" -Ax64 -Thost=x64 "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2019/Community" -S "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog" -B "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-build"
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_PREFIX=C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/install "-GVisual Studio 16 2019" -Ax64 -Thost=x64 "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2019/Community" -S C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog -B C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-build
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Release/dep_spdlog-configure"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Release/dep_spdlog-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -445,18 +445,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\tmp\dep_spdlog-cfgcmd.txt;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\tmp\dep_spdlog-cfgcmd.txt;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Performing configure step for 'dep_spdlog'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-build"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" "-DCMAKE_INSTALL_PREFIX=C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/install" "-GVisual Studio 16 2019" -Ax64 -Thost=x64 "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2019/Community" -S "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog" -B "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-build"
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_PREFIX=C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/install "-GVisual Studio 16 2019" -Ax64 -Thost=x64 "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2019/Community" -S C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog -B C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-build
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/MinSizeRel/dep_spdlog-configure"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/MinSizeRel/dep_spdlog-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -464,18 +464,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\tmp\dep_spdlog-cfgcmd.txt;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\tmp\dep_spdlog-cfgcmd.txt;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing configure step for 'dep_spdlog'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-build"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" "-DCMAKE_INSTALL_PREFIX=C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/install" "-GVisual Studio 16 2019" -Ax64 -Thost=x64 "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2019/Community" -S "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog" -B "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-build"
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_PREFIX=C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/install "-GVisual Studio 16 2019" -Ax64 -Thost=x64 "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2019/Community" -S C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog -B C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-build
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/RelWithDebInfo/dep_spdlog-configure"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/RelWithDebInfo/dep_spdlog-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -483,22 +483,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\tmp\dep_spdlog-cfgcmd.txt;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\tmp\dep_spdlog-cfgcmd.txt;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\476e80bbc3977a43193002c617b7e6c7\dep_spdlog-build.rule">
+    <CustomBuild Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\59d2da44188d046c19076b3437a098ea\dep_spdlog-build.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing build step for 'dep_spdlog'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-build"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" --build . --config Debug
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Debug/dep_spdlog-build"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Debug/dep_spdlog-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -506,18 +506,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing build step for 'dep_spdlog'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-build"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" --build . --config Release
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Release/dep_spdlog-build"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Release/dep_spdlog-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -525,18 +525,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Performing build step for 'dep_spdlog'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-build"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" --build . --config MinSizeRel
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/MinSizeRel/dep_spdlog-build"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/MinSizeRel/dep_spdlog-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -544,18 +544,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing build step for 'dep_spdlog'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-build"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" --build . --config RelWithDebInfo
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/RelWithDebInfo/dep_spdlog-build"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/RelWithDebInfo/dep_spdlog-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -563,22 +563,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\476e80bbc3977a43193002c617b7e6c7\dep_spdlog-install.rule">
+    <CustomBuild Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\59d2da44188d046c19076b3437a098ea\dep_spdlog-install.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing install step for 'dep_spdlog'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-build"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" --build . --config Debug --target install
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Debug/dep_spdlog-install"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Debug/dep_spdlog-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -586,18 +586,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing install step for 'dep_spdlog'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-build"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" --build . --config Release --target install
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Release/dep_spdlog-install"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Release/dep_spdlog-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -605,18 +605,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Performing install step for 'dep_spdlog'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-build"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" --build . --config MinSizeRel --target install
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/MinSizeRel/dep_spdlog-install"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/MinSizeRel/dep_spdlog-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -624,18 +624,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing install step for 'dep_spdlog'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-build"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" --build . --config RelWithDebInfo --target install
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/RelWithDebInfo/dep_spdlog-install"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/RelWithDebInfo/dep_spdlog-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -643,22 +643,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\476e80bbc3977a43193002c617b7e6c7\dep_spdlog-test.rule">
+    <CustomBuild Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\59d2da44188d046c19076b3437a098ea\dep_spdlog-test.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No test step for 'dep_spdlog'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-build"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Debug/dep_spdlog-test"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Debug/dep_spdlog-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -666,18 +666,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-test</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-test</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No test step for 'dep_spdlog'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-build"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Release/dep_spdlog-test"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Release/dep_spdlog-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -685,18 +685,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-test</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-test</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No test step for 'dep_spdlog'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-build"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/MinSizeRel/dep_spdlog-test"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/MinSizeRel/dep_spdlog-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -704,18 +704,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-test</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-test</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No test step for 'dep_spdlog'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-build"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/RelWithDebInfo/dep_spdlog-test"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/RelWithDebInfo/dep_spdlog-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -723,20 +723,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-test</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-test</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\cd6b57a334f928371bd7b744f0b6a921\dep_spdlog-complete.rule">
+    <CustomBuild Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\05547761663f038447a9416307c48dde\dep_spdlog-complete.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Completed 'dep_spdlog'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/Debug"
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/Debug
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/Debug/dep_spdlog-complete"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/Debug/dep_spdlog-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Debug/dep_spdlog-done"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Debug/dep_spdlog-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -744,16 +744,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-install;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-mkdir;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-download;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-update;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-patch;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-configure;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-build;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-test;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\Debug\dep_spdlog-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-install;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-mkdir;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-download;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-update;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-patch;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-configure;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-build;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Debug\dep_spdlog-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\Debug\dep_spdlog-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Completed 'dep_spdlog'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/Release"
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/Release
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/Release/dep_spdlog-complete"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/Release/dep_spdlog-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Release/dep_spdlog-done"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Release/dep_spdlog-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -761,16 +761,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-install;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-mkdir;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-download;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-update;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-patch;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-configure;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-build;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-test;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\Release\dep_spdlog-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-install;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-mkdir;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-download;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-update;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-patch;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-configure;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-build;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\Release\dep_spdlog-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\Release\dep_spdlog-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Completed 'dep_spdlog'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/MinSizeRel"
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/MinSizeRel
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/MinSizeRel/dep_spdlog-complete"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/MinSizeRel/dep_spdlog-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/MinSizeRel/dep_spdlog-done"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/MinSizeRel/dep_spdlog-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -778,16 +778,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-install;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-mkdir;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-download;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-update;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-patch;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-configure;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-build;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-test;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\MinSizeRel\dep_spdlog-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-install;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-mkdir;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-download;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-update;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-patch;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-configure;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-build;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\MinSizeRel\dep_spdlog-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\MinSizeRel\dep_spdlog-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Completed 'dep_spdlog'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/RelWithDebInfo"
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/RelWithDebInfo
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/RelWithDebInfo/dep_spdlog-complete"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/RelWithDebInfo/dep_spdlog-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/RelWithDebInfo/dep_spdlog-done"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/RelWithDebInfo/dep_spdlog-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -795,13 +795,13 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-install;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-mkdir;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-download;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-update;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-patch;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-configure;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-build;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-test;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\RelWithDebInfo\dep_spdlog-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-install;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-mkdir;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-download;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-update;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-patch;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-configure;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-build;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-stamp\RelWithDebInfo\dep_spdlog-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\RelWithDebInfo\dep_spdlog-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\4bfc140e541c2ce65605c2018aa7b190\dep_spdlog.rule">
+    <CustomBuild Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\fa8d8aa29ce525014dfb5ea31302ce4d\dep_spdlog.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 :cmEnd
@@ -810,8 +810,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\Debug\dep_spdlog-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\dep_spdlog</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\Debug\dep_spdlog-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\dep_spdlog</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
@@ -822,8 +822,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\Release\dep_spdlog-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\dep_spdlog</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\Release\dep_spdlog-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\dep_spdlog</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
@@ -834,8 +834,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\MinSizeRel\dep_spdlog-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\dep_spdlog</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\MinSizeRel\dep_spdlog-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\dep_spdlog</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
@@ -846,18 +846,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\RelWithDebInfo\dep_spdlog-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\dep_spdlog</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\RelWithDebInfo\dep_spdlog-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\dep_spdlog</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example" "-BC:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build" --check-stamp-file "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/wobo5/VSCode/OpenGL/first_opengl_example -BC:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build --check-stamp-file C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -865,12 +865,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\Dependency.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\3.26.3\CMakeCCompiler.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\3.26.3\CMakeSystem.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\tmp\dep_glfw-mkdirs.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\tmp\dep_spdlog-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\Dependency.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\3.26.3\CMakeCCompiler.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\3.26.3\CMakeSystem.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glad-prefix\tmp\dep_glad-mkdirs.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\tmp\dep_glfw-mkdirs.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\tmp\dep_spdlog-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example" "-BC:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build" --check-stamp-file "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/wobo5/VSCode/OpenGL/first_opengl_example -BC:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build --check-stamp-file C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -878,12 +878,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\Dependency.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\3.26.3\CMakeCCompiler.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\3.26.3\CMakeSystem.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\tmp\dep_glfw-mkdirs.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\tmp\dep_spdlog-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\Dependency.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\3.26.3\CMakeCCompiler.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\3.26.3\CMakeSystem.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glad-prefix\tmp\dep_glad-mkdirs.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\tmp\dep_glfw-mkdirs.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\tmp\dep_spdlog-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example" "-BC:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build" --check-stamp-file "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/wobo5/VSCode/OpenGL/first_opengl_example -BC:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build --check-stamp-file C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -891,12 +891,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\Dependency.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\3.26.3\CMakeCCompiler.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\3.26.3\CMakeSystem.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\tmp\dep_glfw-mkdirs.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\tmp\dep_spdlog-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\Dependency.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\3.26.3\CMakeCCompiler.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\3.26.3\CMakeSystem.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glad-prefix\tmp\dep_glad-mkdirs.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\tmp\dep_glfw-mkdirs.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\tmp\dep_spdlog-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example" "-BC:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build" --check-stamp-file "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/wobo5/VSCode/OpenGL/first_opengl_example -BC:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build --check-stamp-file C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -904,18 +904,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\Dependency.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\3.26.3\CMakeCCompiler.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\3.26.3\CMakeSystem.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\tmp\dep_glfw-mkdirs.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\tmp\dep_spdlog-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\Dependency.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\3.26.3\CMakeCCompiler.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\3.26.3\CMakeSystem.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glad-prefix\tmp\dep_glad-mkdirs.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\tmp\dep_glfw-mkdirs.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\tmp\dep_spdlog-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\dep_spdlog">
+    <None Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\dep_spdlog">
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\ZERO_CHECK.vcxproj">
-      <Project>{CB76EB78-371A-383E-976C-9CD6D10D9F45}</Project>
+    <ProjectReference Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\ZERO_CHECK.vcxproj">
+      <Project>{4C2C7C48-8D71-3613-B0A5-00276BA01D80}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

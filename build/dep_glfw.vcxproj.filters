@@ -1,44 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\a5df0dc09b53620dd7421085bfe4b3f6\dep_glfw-mkdir.rule">
+    <CustomBuild Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\ec181d7b069ccd768b725051e1de5c5e\dep_glfw-mkdir.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\a5df0dc09b53620dd7421085bfe4b3f6\dep_glfw-download.rule">
+    <CustomBuild Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\ec181d7b069ccd768b725051e1de5c5e\dep_glfw-download.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\a5df0dc09b53620dd7421085bfe4b3f6\dep_glfw-update.rule">
+    <CustomBuild Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\ec181d7b069ccd768b725051e1de5c5e\dep_glfw-update.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\a5df0dc09b53620dd7421085bfe4b3f6\dep_glfw-patch.rule">
+    <CustomBuild Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\ec181d7b069ccd768b725051e1de5c5e\dep_glfw-patch.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\a5df0dc09b53620dd7421085bfe4b3f6\dep_glfw-configure.rule">
+    <CustomBuild Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\ec181d7b069ccd768b725051e1de5c5e\dep_glfw-configure.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\a5df0dc09b53620dd7421085bfe4b3f6\dep_glfw-build.rule">
+    <CustomBuild Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\ec181d7b069ccd768b725051e1de5c5e\dep_glfw-build.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\a5df0dc09b53620dd7421085bfe4b3f6\dep_glfw-install.rule">
+    <CustomBuild Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\ec181d7b069ccd768b725051e1de5c5e\dep_glfw-install.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\a5df0dc09b53620dd7421085bfe4b3f6\dep_glfw-test.rule">
+    <CustomBuild Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\ec181d7b069ccd768b725051e1de5c5e\dep_glfw-test.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\cd6b57a334f928371bd7b744f0b6a921\dep_glfw-complete.rule">
+    <CustomBuild Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\05547761663f038447a9416307c48dde\dep_glfw-complete.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\4bfc140e541c2ce65605c2018aa7b190\dep_glfw.rule">
+    <CustomBuild Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\fa8d8aa29ce525014dfb5ea31302ce4d\dep_glfw.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\dep_glfw" />
+    <None Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\dep_glfw" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{F3BCB0ED-BEC0-31EB-A73E-47586D5A4E77}</UniqueIdentifier>
+      <UniqueIdentifier>{FBEA707E-0823-30A6-9A47-461FA42EBBFA}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

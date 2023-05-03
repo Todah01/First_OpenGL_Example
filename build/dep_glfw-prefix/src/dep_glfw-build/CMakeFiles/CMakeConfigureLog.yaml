@@ -26,8 +26,8 @@ events:
       .NET Framework용 Microsoft (R) Build Engine 버전 16.11.2+f32259642
       Copyright (C) Microsoft Corporation. All rights reserved.
       
-      빌드 시작: 2023-04-27 오후 4:27:07
-      1 노드의 "C:\\Users\\wobo5\\OneDrive\\바탕 화면\\VSCode\\OpenGL\\first_project_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.vcxproj" 프로젝트(기본 대상)입니다.
+      빌드 시작: 2023-04-28 오후 3:38:52
+      1 노드의 "C:\\Users\\wobo5\\VSCode\\OpenGL\\first_opengl_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.vcxproj" 프로젝트(기본 대상)입니다.
       PrepareForBuild:
         "Debug\\" 디렉터리를 만들고 있습니다.
         "Debug\\CompilerIdC.tlog\\" 디렉터리를 만들고 있습니다.
@@ -38,7 +38,7 @@ events:
         CMakeCCompilerId.c
       Link:
         C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> C:\\Users\\wobo5\\OneDrive\\바탕 화면\\VSCode\\OpenGL\\first_project_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.exe
+        CompilerIdC.vcxproj -> C:\\Users\\wobo5\\VSCode\\OpenGL\\first_opengl_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
         :VCEnd
@@ -46,13 +46,13 @@ events:
       FinalizeBuildStatus:
         "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
         "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate"에 연결(touching)하고 있습니다.
-      "C:\\Users\\wobo5\\OneDrive\\바탕 화면\\VSCode\\OpenGL\\first_project_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+      "C:\\Users\\wobo5\\VSCode\\OpenGL\\first_opengl_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
       
       빌드했습니다.
           경고 0개
           오류 0개
       
-      경과 시간: 00:00:00.72
+      경과 시간: 00:00:00.69
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -60,7 +60,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
       
       The C compiler identification is MSVC, found in:
-        C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.exe
+        C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.exe
       
   -
     kind: "try_compile-v1"
@@ -71,8 +71,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/wobo5/OneDrive/\ubc14\ud0d5 \ud654\uba74/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-6ovf0a"
-      binary: "C:/Users/wobo5/OneDrive/\ubc14\ud0d5 \ud654\uba74/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-6ovf0a"
+      source: "C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-facrpo"
+      binary: "C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-facrpo"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -81,38 +81,38 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-6ovf0a
+        Change Dir: C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-facrpo
         
-        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_6ea39.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && .NET Framework용 Microsoft (R) Build Engine 버전 16.11.2+f32259642
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_ca984.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && .NET Framework용 Microsoft (R) Build Engine 버전 16.11.2+f32259642
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        빌드 시작: 2023-04-27 오후 4:27:08
-        1 노드의 "C:\\Users\\wobo5\\OneDrive\\바탕 화면\\VSCode\\OpenGL\\first_project_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-6ovf0a\\cmTC_6ea39.vcxproj" 프로젝트(기본 대상)입니다.
+        빌드 시작: 2023-04-28 오후 3:38:53
+        1 노드의 "C:\\Users\\wobo5\\VSCode\\OpenGL\\first_opengl_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-facrpo\\cmTC_ca984.vcxproj" 프로젝트(기본 대상)입니다.
         PrepareForBuild:
-          "cmTC_6ea39.dir\\Debug\\" 디렉터리를 만들고 있습니다.
-          "C:\\Users\\wobo5\\OneDrive\\바탕 화면\\VSCode\\OpenGL\\first_project_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-6ovf0a\\Debug\\" 디렉터리를 만들고 있습니다.
-          "cmTC_6ea39.dir\\Debug\\cmTC_6ea39.tlog\\" 디렉터리를 만들고 있습니다.
+          "cmTC_ca984.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          "C:\\Users\\wobo5\\VSCode\\OpenGL\\first_opengl_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-facrpo\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_ca984.dir\\Debug\\cmTC_ca984.tlog\\" 디렉터리를 만들고 있습니다.
         InitializeBuildStatus:
-          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_6ea39.dir\\Debug\\cmTC_6ea39.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_ca984.dir\\Debug\\cmTC_ca984.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6ea39.dir\\Debug\\\\" /Fd"cmTC_6ea39.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ca984.dir\\Debug\\\\" /Fd"cmTC_ca984.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ 최적화 컴파일러 버전 19.29.30148(x64)
           Copyright (c) Microsoft Corporation. All rights reserved.
           CMakeCCompilerABI.c
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6ea39.dir\\Debug\\\\" /Fd"cmTC_6ea39.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ca984.dir\\Debug\\\\" /Fd"cmTC_ca984.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\wobo5\\OneDrive\\바탕 화면\\VSCode\\OpenGL\\first_project_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-6ovf0a\\Debug\\cmTC_6ea39.exe" /INCREMENTAL /ILK:"cmTC_6ea39.dir\\Debug\\cmTC_6ea39.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-6ovf0a/Debug/cmTC_6ea39.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-6ovf0a/Debug/cmTC_6ea39.lib" /MACHINE:X64  /machine:x64 cmTC_6ea39.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_6ea39.vcxproj -> C:\\Users\\wobo5\\OneDrive\\바탕 화면\\VSCode\\OpenGL\\first_project_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-6ovf0a\\Debug\\cmTC_6ea39.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\wobo5\\VSCode\\OpenGL\\first_opengl_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-facrpo\\Debug\\cmTC_ca984.exe" /INCREMENTAL /ILK:"cmTC_ca984.dir\\Debug\\cmTC_ca984.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-facrpo/Debug/cmTC_ca984.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-facrpo/Debug/cmTC_ca984.lib" /MACHINE:X64  /machine:x64 cmTC_ca984.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_ca984.vcxproj -> C:\\Users\\wobo5\\VSCode\\OpenGL\\first_opengl_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-facrpo\\Debug\\cmTC_ca984.exe
         FinalizeBuildStatus:
-          "cmTC_6ea39.dir\\Debug\\cmTC_6ea39.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
-          "cmTC_6ea39.dir\\Debug\\cmTC_6ea39.tlog\\cmTC_6ea39.lastbuildstate"에 연결(touching)하고 있습니다.
-        "C:\\Users\\wobo5\\OneDrive\\바탕 화면\\VSCode\\OpenGL\\first_project_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-6ovf0a\\cmTC_6ea39.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+          "cmTC_ca984.dir\\Debug\\cmTC_ca984.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+          "cmTC_ca984.dir\\Debug\\cmTC_ca984.tlog\\cmTC_ca984.lastbuildstate"에 연결(touching)하고 있습니다.
+        "C:\\Users\\wobo5\\VSCode\\OpenGL\\first_opengl_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-facrpo\\cmTC_ca984.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
         
         빌드했습니다.
             경고 0개
             오류 0개
         
-        경과 시간: 00:00:00.71
+        경과 시간: 00:00:00.69
         
       exitCode: 0
   -
@@ -126,49 +126,49 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/wobo5/OneDrive/\ubc14\ud0d5 \ud654\uba74/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-pqbybx"
-      binary: "C:/Users/wobo5/OneDrive/\ubc14\ud0d5 \ud654\uba74/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-pqbybx"
+      source: "C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-w8yz5h"
+      binary: "C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-w8yz5h"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/wobo5/OneDrive/\ubc14\ud0d5 \ud654\uba74/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw/CMake/modules"
+      CMAKE_MODULE_PATH: "C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw/CMake/modules"
     buildResult:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-pqbybx
+        Change Dir: C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-w8yz5h
         
-        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_4ecb9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && .NET Framework용 Microsoft (R) Build Engine 버전 16.11.2+f32259642
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_149da.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && .NET Framework용 Microsoft (R) Build Engine 버전 16.11.2+f32259642
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        빌드 시작: 2023-04-27 오후 4:27:09
-        1 노드의 "C:\\Users\\wobo5\\OneDrive\\바탕 화면\\VSCode\\OpenGL\\first_project_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-pqbybx\\cmTC_4ecb9.vcxproj" 프로젝트(기본 대상)입니다.
+        빌드 시작: 2023-04-28 오후 3:38:54
+        1 노드의 "C:\\Users\\wobo5\\VSCode\\OpenGL\\first_opengl_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-w8yz5h\\cmTC_149da.vcxproj" 프로젝트(기본 대상)입니다.
         PrepareForBuild:
-          "cmTC_4ecb9.dir\\Debug\\" 디렉터리를 만들고 있습니다.
-          "C:\\Users\\wobo5\\OneDrive\\바탕 화면\\VSCode\\OpenGL\\first_project_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-pqbybx\\Debug\\" 디렉터리를 만들고 있습니다.
-          "cmTC_4ecb9.dir\\Debug\\cmTC_4ecb9.tlog\\" 디렉터리를 만들고 있습니다.
+          "cmTC_149da.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          "C:\\Users\\wobo5\\VSCode\\OpenGL\\first_opengl_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-w8yz5h\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_149da.dir\\Debug\\cmTC_149da.tlog\\" 디렉터리를 만들고 있습니다.
         InitializeBuildStatus:
-          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_4ecb9.dir\\Debug\\cmTC_4ecb9.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_149da.dir\\Debug\\cmTC_149da.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4ecb9.dir\\Debug\\\\" /Fd"cmTC_4ecb9.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\wobo5\\OneDrive\\바탕 화면\\VSCode\\OpenGL\\first_project_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-pqbybx\\src.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_149da.dir\\Debug\\\\" /Fd"cmTC_149da.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\wobo5\\VSCode\\OpenGL\\first_opengl_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-w8yz5h\\src.c"
           Microsoft (R) C/C++ 최적화 컴파일러 버전 19.29.30148(x64)
           Copyright (c) Microsoft Corporation. All rights reserved.
           src.c
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4ecb9.dir\\Debug\\\\" /Fd"cmTC_4ecb9.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\wobo5\\OneDrive\\바탕 화면\\VSCode\\OpenGL\\first_project_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-pqbybx\\src.c"
-        C:\\Users\\wobo5\\OneDrive\\바탕 화면\\VSCode\\OpenGL\\first_project_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-pqbybx\\src.c(1,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'pthread.h': No such file or directory [C:\\Users\\wobo5\\OneDrive\\바탕 화면\\VSCode\\OpenGL\\first_project_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-pqbybx\\cmTC_4ecb9.vcxproj]
-        "C:\\Users\\wobo5\\OneDrive\\바탕 화면\\VSCode\\OpenGL\\first_project_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-pqbybx\\cmTC_4ecb9.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_149da.dir\\Debug\\\\" /Fd"cmTC_149da.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\wobo5\\VSCode\\OpenGL\\first_opengl_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-w8yz5h\\src.c"
+        C:\\Users\\wobo5\\VSCode\\OpenGL\\first_opengl_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-w8yz5h\\src.c(1,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'pthread.h': No such file or directory [C:\\Users\\wobo5\\VSCode\\OpenGL\\first_opengl_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-w8yz5h\\cmTC_149da.vcxproj]
+        "C:\\Users\\wobo5\\VSCode\\OpenGL\\first_opengl_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-w8yz5h\\cmTC_149da.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
         
         빌드하지 못했습니다.
         
-        "C:\\Users\\wobo5\\OneDrive\\바탕 화면\\VSCode\\OpenGL\\first_project_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-pqbybx\\cmTC_4ecb9.vcxproj"(기본 대상)(1)->
+        "C:\\Users\\wobo5\\VSCode\\OpenGL\\first_opengl_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-w8yz5h\\cmTC_149da.vcxproj"(기본 대상)(1)->
         (ClCompile 대상) -> 
-          C:\\Users\\wobo5\\OneDrive\\바탕 화면\\VSCode\\OpenGL\\first_project_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-pqbybx\\src.c(1,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'pthread.h': No such file or directory [C:\\Users\\wobo5\\OneDrive\\바탕 화면\\VSCode\\OpenGL\\first_project_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-pqbybx\\cmTC_4ecb9.vcxproj]
+          C:\\Users\\wobo5\\VSCode\\OpenGL\\first_opengl_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-w8yz5h\\src.c(1,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'pthread.h': No such file or directory [C:\\Users\\wobo5\\VSCode\\OpenGL\\first_opengl_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-w8yz5h\\cmTC_149da.vcxproj]
         
             경고 0개
             오류 1개
         
-        경과 시간: 00:00:00.47
+        경과 시간: 00:00:00.43
         
       exitCode: 1
   -
@@ -181,51 +181,51 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Users/wobo5/OneDrive/\ubc14\ud0d5 \ud654\uba74/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-edgj75"
-      binary: "C:/Users/wobo5/OneDrive/\ubc14\ud0d5 \ud654\uba74/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-edgj75"
+      source: "C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-hs5hd5"
+      binary: "C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-hs5hd5"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/wobo5/OneDrive/\ubc14\ud0d5 \ud654\uba74/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw/CMake/modules"
+      CMAKE_MODULE_PATH: "C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw/CMake/modules"
     buildResult:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-edgj75
+        Change Dir: C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-hs5hd5
         
-        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_70288.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && .NET Framework용 Microsoft (R) Build Engine 버전 16.11.2+f32259642
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_9b926.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && .NET Framework용 Microsoft (R) Build Engine 버전 16.11.2+f32259642
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        빌드 시작: 2023-04-27 오후 4:27:10
-        1 노드의 "C:\\Users\\wobo5\\OneDrive\\바탕 화면\\VSCode\\OpenGL\\first_project_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-edgj75\\cmTC_70288.vcxproj" 프로젝트(기본 대상)입니다.
+        빌드 시작: 2023-04-28 오후 3:38:55
+        1 노드의 "C:\\Users\\wobo5\\VSCode\\OpenGL\\first_opengl_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-hs5hd5\\cmTC_9b926.vcxproj" 프로젝트(기본 대상)입니다.
         PrepareForBuild:
-          "cmTC_70288.dir\\Debug\\" 디렉터리를 만들고 있습니다.
-          "C:\\Users\\wobo5\\OneDrive\\바탕 화면\\VSCode\\OpenGL\\first_project_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-edgj75\\Debug\\" 디렉터리를 만들고 있습니다.
-          "cmTC_70288.dir\\Debug\\cmTC_70288.tlog\\" 디렉터리를 만들고 있습니다.
+          "cmTC_9b926.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          "C:\\Users\\wobo5\\VSCode\\OpenGL\\first_opengl_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-hs5hd5\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_9b926.dir\\Debug\\cmTC_9b926.tlog\\" 디렉터리를 만들고 있습니다.
         InitializeBuildStatus:
-          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_70288.dir\\Debug\\cmTC_70288.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_9b926.dir\\Debug\\cmTC_9b926.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_70288.dir\\Debug\\\\" /Fd"cmTC_70288.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\wobo5\\OneDrive\\바탕 화면\\VSCode\\OpenGL\\first_project_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-edgj75\\CheckFunctionExists.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9b926.dir\\Debug\\\\" /Fd"cmTC_9b926.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\wobo5\\VSCode\\OpenGL\\first_opengl_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-hs5hd5\\CheckFunctionExists.c"
           Microsoft (R) C/C++ 최적화 컴파일러 버전 19.29.30148(x64)
           Copyright (c) Microsoft Corporation. All rights reserved.
           CheckFunctionExists.c
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_70288.dir\\Debug\\\\" /Fd"cmTC_70288.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\wobo5\\OneDrive\\바탕 화면\\VSCode\\OpenGL\\first_project_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-edgj75\\CheckFunctionExists.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9b926.dir\\Debug\\\\" /Fd"cmTC_9b926.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\wobo5\\VSCode\\OpenGL\\first_opengl_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-hs5hd5\\CheckFunctionExists.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\wobo5\\OneDrive\\바탕 화면\\VSCode\\OpenGL\\first_project_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-edgj75\\Debug\\cmTC_70288.exe" /INCREMENTAL /ILK:"cmTC_70288.dir\\Debug\\cmTC_70288.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-edgj75/Debug/cmTC_70288.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-edgj75/Debug/cmTC_70288.lib" /MACHINE:X64  /machine:x64 cmTC_70288.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: 'pthreads.lib' 파일을 열 수 없습니다. [C:\\Users\\wobo5\\OneDrive\\바탕 화면\\VSCode\\OpenGL\\first_project_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-edgj75\\cmTC_70288.vcxproj]
-        "C:\\Users\\wobo5\\OneDrive\\바탕 화면\\VSCode\\OpenGL\\first_project_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-edgj75\\cmTC_70288.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\wobo5\\VSCode\\OpenGL\\first_opengl_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-hs5hd5\\Debug\\cmTC_9b926.exe" /INCREMENTAL /ILK:"cmTC_9b926.dir\\Debug\\cmTC_9b926.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-hs5hd5/Debug/cmTC_9b926.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-hs5hd5/Debug/cmTC_9b926.lib" /MACHINE:X64  /machine:x64 cmTC_9b926.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 'pthreads.lib' 파일을 열 수 없습니다. [C:\\Users\\wobo5\\VSCode\\OpenGL\\first_opengl_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-hs5hd5\\cmTC_9b926.vcxproj]
+        "C:\\Users\\wobo5\\VSCode\\OpenGL\\first_opengl_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-hs5hd5\\cmTC_9b926.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
         
         빌드하지 못했습니다.
         
-        "C:\\Users\\wobo5\\OneDrive\\바탕 화면\\VSCode\\OpenGL\\first_project_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-edgj75\\cmTC_70288.vcxproj"(기본 대상)(1)->
+        "C:\\Users\\wobo5\\VSCode\\OpenGL\\first_opengl_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-hs5hd5\\cmTC_9b926.vcxproj"(기본 대상)(1)->
         (Link 대상) -> 
-          LINK : fatal error LNK1104: 'pthreads.lib' 파일을 열 수 없습니다. [C:\\Users\\wobo5\\OneDrive\\바탕 화면\\VSCode\\OpenGL\\first_project_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-edgj75\\cmTC_70288.vcxproj]
+          LINK : fatal error LNK1104: 'pthreads.lib' 파일을 열 수 없습니다. [C:\\Users\\wobo5\\VSCode\\OpenGL\\first_opengl_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-hs5hd5\\cmTC_9b926.vcxproj]
         
             경고 0개
             오류 1개
         
-        경과 시간: 00:00:00.60
+        경과 시간: 00:00:00.56
         
       exitCode: 1
   -
@@ -238,51 +238,51 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Users/wobo5/OneDrive/\ubc14\ud0d5 \ud654\uba74/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-1hzu51"
-      binary: "C:/Users/wobo5/OneDrive/\ubc14\ud0d5 \ud654\uba74/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-1hzu51"
+      source: "C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-zw8394"
+      binary: "C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-zw8394"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/wobo5/OneDrive/\ubc14\ud0d5 \ud654\uba74/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw/CMake/modules"
+      CMAKE_MODULE_PATH: "C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw/CMake/modules"
     buildResult:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-1hzu51
+        Change Dir: C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-zw8394
         
-        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_3b1d4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && .NET Framework용 Microsoft (R) Build Engine 버전 16.11.2+f32259642
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_e7c9e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && .NET Framework용 Microsoft (R) Build Engine 버전 16.11.2+f32259642
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        빌드 시작: 2023-04-27 오후 4:27:11
-        1 노드의 "C:\\Users\\wobo5\\OneDrive\\바탕 화면\\VSCode\\OpenGL\\first_project_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-1hzu51\\cmTC_3b1d4.vcxproj" 프로젝트(기본 대상)입니다.
+        빌드 시작: 2023-04-28 오후 3:38:56
+        1 노드의 "C:\\Users\\wobo5\\VSCode\\OpenGL\\first_opengl_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-zw8394\\cmTC_e7c9e.vcxproj" 프로젝트(기본 대상)입니다.
         PrepareForBuild:
-          "cmTC_3b1d4.dir\\Debug\\" 디렉터리를 만들고 있습니다.
-          "C:\\Users\\wobo5\\OneDrive\\바탕 화면\\VSCode\\OpenGL\\first_project_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-1hzu51\\Debug\\" 디렉터리를 만들고 있습니다.
-          "cmTC_3b1d4.dir\\Debug\\cmTC_3b1d4.tlog\\" 디렉터리를 만들고 있습니다.
+          "cmTC_e7c9e.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          "C:\\Users\\wobo5\\VSCode\\OpenGL\\first_opengl_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-zw8394\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_e7c9e.dir\\Debug\\cmTC_e7c9e.tlog\\" 디렉터리를 만들고 있습니다.
         InitializeBuildStatus:
-          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_3b1d4.dir\\Debug\\cmTC_3b1d4.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_e7c9e.dir\\Debug\\cmTC_e7c9e.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3b1d4.dir\\Debug\\\\" /Fd"cmTC_3b1d4.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\wobo5\\OneDrive\\바탕 화면\\VSCode\\OpenGL\\first_project_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-1hzu51\\CheckFunctionExists.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e7c9e.dir\\Debug\\\\" /Fd"cmTC_e7c9e.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\wobo5\\VSCode\\OpenGL\\first_opengl_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-zw8394\\CheckFunctionExists.c"
           Microsoft (R) C/C++ 최적화 컴파일러 버전 19.29.30148(x64)
           Copyright (c) Microsoft Corporation. All rights reserved.
           CheckFunctionExists.c
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3b1d4.dir\\Debug\\\\" /Fd"cmTC_3b1d4.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\wobo5\\OneDrive\\바탕 화면\\VSCode\\OpenGL\\first_project_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-1hzu51\\CheckFunctionExists.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e7c9e.dir\\Debug\\\\" /Fd"cmTC_e7c9e.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\wobo5\\VSCode\\OpenGL\\first_opengl_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-zw8394\\CheckFunctionExists.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\wobo5\\OneDrive\\바탕 화면\\VSCode\\OpenGL\\first_project_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-1hzu51\\Debug\\cmTC_3b1d4.exe" /INCREMENTAL /ILK:"cmTC_3b1d4.dir\\Debug\\cmTC_3b1d4.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-1hzu51/Debug/cmTC_3b1d4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-1hzu51/Debug/cmTC_3b1d4.lib" /MACHINE:X64  /machine:x64 cmTC_3b1d4.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: 'pthread.lib' 파일을 열 수 없습니다. [C:\\Users\\wobo5\\OneDrive\\바탕 화면\\VSCode\\OpenGL\\first_project_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-1hzu51\\cmTC_3b1d4.vcxproj]
-        "C:\\Users\\wobo5\\OneDrive\\바탕 화면\\VSCode\\OpenGL\\first_project_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-1hzu51\\cmTC_3b1d4.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\wobo5\\VSCode\\OpenGL\\first_opengl_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-zw8394\\Debug\\cmTC_e7c9e.exe" /INCREMENTAL /ILK:"cmTC_e7c9e.dir\\Debug\\cmTC_e7c9e.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-zw8394/Debug/cmTC_e7c9e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-build/CMakeFiles/CMakeScratch/TryCompile-zw8394/Debug/cmTC_e7c9e.lib" /MACHINE:X64  /machine:x64 cmTC_e7c9e.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 'pthread.lib' 파일을 열 수 없습니다. [C:\\Users\\wobo5\\VSCode\\OpenGL\\first_opengl_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-zw8394\\cmTC_e7c9e.vcxproj]
+        "C:\\Users\\wobo5\\VSCode\\OpenGL\\first_opengl_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-zw8394\\cmTC_e7c9e.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
         
         빌드하지 못했습니다.
         
-        "C:\\Users\\wobo5\\OneDrive\\바탕 화면\\VSCode\\OpenGL\\first_project_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-1hzu51\\cmTC_3b1d4.vcxproj"(기본 대상)(1)->
+        "C:\\Users\\wobo5\\VSCode\\OpenGL\\first_opengl_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-zw8394\\cmTC_e7c9e.vcxproj"(기본 대상)(1)->
         (Link 대상) -> 
-          LINK : fatal error LNK1104: 'pthread.lib' 파일을 열 수 없습니다. [C:\\Users\\wobo5\\OneDrive\\바탕 화면\\VSCode\\OpenGL\\first_project_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-1hzu51\\cmTC_3b1d4.vcxproj]
+          LINK : fatal error LNK1104: 'pthread.lib' 파일을 열 수 없습니다. [C:\\Users\\wobo5\\VSCode\\OpenGL\\first_opengl_example\\build\\dep_glfw-prefix\\src\\dep_glfw-build\\CMakeFiles\\CMakeScratch\\TryCompile-zw8394\\cmTC_e7c9e.vcxproj]
         
             경고 0개
             오류 1개
         
-        경과 시간: 00:00:00.60
+        경과 시간: 00:00:00.53
         
       exitCode: 1
 ...

@@ -1,8 +1,8 @@
-^C:\USERS\WOBO5\ONEDRIVE\바탕 화면\VSCODE\OPENGL\FIRST_PROJECT_EXAMPLE\BUILD\CMAKEFILES\A5DF0DC09B53620DD7421085BFE4B3F6\DEP_GLFW-MKDIR.RULE
+^C:\USERS\WOBO5\VSCODE\OPENGL\FIRST_OPENGL_EXAMPLE\BUILD\CMAKEFILES\EC181D7B069CCD768B725051E1DE5C5E\DEP_GLFW-MKDIR.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/tmp/dep_glfw-mkdirs.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/tmp/dep_glfw-mkdirs.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-mkdir"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -10,31 +10,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\WOBO5\ONEDRIVE\바탕 화면\VSCODE\OPENGL\FIRST_PROJECT_EXAMPLE\BUILD\CMAKEFILES\A5DF0DC09B53620DD7421085BFE4B3F6\DEP_GLFW-DOWNLOAD.RULE
+^C:\USERS\WOBO5\VSCODE\OPENGL\FIRST_OPENGL_EXAMPLE\BUILD\CMAKEFILES\EC181D7B069CCD768B725051E1DE5C5E\DEP_GLFW-DOWNLOAD.RULE
 setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/tmp/dep_glfw-gitclone.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/tmp/dep_glfw-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-download"
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\WOBO5\ONEDRIVE\바탕 화면\VSCODE\OPENGL\FIRST_PROJECT_EXAMPLE\BUILD\CMAKEFILES\A5DF0DC09B53620DD7421085BFE4B3F6\DEP_GLFW-UPDATE.RULE
-setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw"
-if %errorlevel% neq 0 goto :cmEnd
-C:
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-update"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -42,15 +26,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\WOBO5\ONEDRIVE\바탕 화면\VSCODE\OPENGL\FIRST_PROJECT_EXAMPLE\BUILD\CMAKEFILES\A5DF0DC09B53620DD7421085BFE4B3F6\DEP_GLFW-PATCH.RULE
+^C:\USERS\WOBO5\VSCODE\OPENGL\FIRST_OPENGL_EXAMPLE\BUILD\CMAKEFILES\EC181D7B069CCD768B725051E1DE5C5E\DEP_GLFW-UPDATE.RULE
 setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-patch"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-update
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -58,15 +42,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\WOBO5\ONEDRIVE\바탕 화면\VSCODE\OPENGL\FIRST_PROJECT_EXAMPLE\BUILD\CMAKEFILES\A5DF0DC09B53620DD7421085BFE4B3F6\DEP_GLFW-CONFIGURE.RULE
+^C:\USERS\WOBO5\VSCODE\OPENGL\FIRST_OPENGL_EXAMPLE\BUILD\CMAKEFILES\EC181D7B069CCD768B725051E1DE5C5E\DEP_GLFW-PATCH.RULE
 setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-build"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" "-DCMAKE_INSTALL_PREFIX=C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/install" -DGLFW_BUILD_EXAMPLES=OFF -DGLFW_BUILD_TESTS=OFF -DGLFW_BUILD_DOCS=OFF "-GVisual Studio 16 2019" -Ax64 -Thost=x64 "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2019/Community" -S "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw" -B "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-build"
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-configure"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -74,15 +58,31 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\WOBO5\ONEDRIVE\바탕 화면\VSCODE\OPENGL\FIRST_PROJECT_EXAMPLE\BUILD\CMAKEFILES\A5DF0DC09B53620DD7421085BFE4B3F6\DEP_GLFW-BUILD.RULE
+^C:\USERS\WOBO5\VSCODE\OPENGL\FIRST_OPENGL_EXAMPLE\BUILD\CMAKEFILES\EC181D7B069CCD768B725051E1DE5C5E\DEP_GLFW-CONFIGURE.RULE
 setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-build"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_PREFIX=C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/install -DGLFW_BUILD_EXAMPLES=OFF -DGLFW_BUILD_TESTS=OFF -DGLFW_BUILD_DOCS=OFF "-GVisual Studio 16 2019" -Ax64 -Thost=x64 "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2019/Community" -S C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw -B C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\WOBO5\VSCODE\OPENGL\FIRST_OPENGL_EXAMPLE\BUILD\CMAKEFILES\EC181D7B069CCD768B725051E1DE5C5E\DEP_GLFW-BUILD.RULE
+setlocal
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" --build . --config Debug
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-build"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -90,15 +90,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\WOBO5\ONEDRIVE\바탕 화면\VSCODE\OPENGL\FIRST_PROJECT_EXAMPLE\BUILD\CMAKEFILES\A5DF0DC09B53620DD7421085BFE4B3F6\DEP_GLFW-INSTALL.RULE
+^C:\USERS\WOBO5\VSCODE\OPENGL\FIRST_OPENGL_EXAMPLE\BUILD\CMAKEFILES\EC181D7B069CCD768B725051E1DE5C5E\DEP_GLFW-INSTALL.RULE
 setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-build"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" --build . --config Debug --target install
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-install"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -106,15 +106,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\WOBO5\ONEDRIVE\바탕 화면\VSCODE\OPENGL\FIRST_PROJECT_EXAMPLE\BUILD\CMAKEFILES\A5DF0DC09B53620DD7421085BFE4B3F6\DEP_GLFW-TEST.RULE
+^C:\USERS\WOBO5\VSCODE\OPENGL\FIRST_OPENGL_EXAMPLE\BUILD\CMAKEFILES\EC181D7B069CCD768B725051E1DE5C5E\DEP_GLFW-TEST.RULE
 setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-build"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-test"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -122,13 +122,13 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\WOBO5\ONEDRIVE\바탕 화면\VSCODE\OPENGL\FIRST_PROJECT_EXAMPLE\BUILD\CMAKEFILES\CD6B57A334F928371BD7B744F0B6A921\DEP_GLFW-COMPLETE.RULE
+^C:\USERS\WOBO5\VSCODE\OPENGL\FIRST_OPENGL_EXAMPLE\BUILD\CMAKEFILES\05547761663F038447A9416307C48DDE\DEP_GLFW-COMPLETE.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/Debug"
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/Debug
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/Debug/dep_glfw-complete"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/Debug/dep_glfw-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-done"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -136,7 +136,7 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\WOBO5\ONEDRIVE\바탕 화면\VSCODE\OPENGL\FIRST_PROJECT_EXAMPLE\BUILD\CMAKEFILES\4BFC140E541C2CE65605C2018AA7B190\DEP_GLFW.RULE
+^C:\USERS\WOBO5\VSCODE\OPENGL\FIRST_OPENGL_EXAMPLE\BUILD\CMAKEFILES\FA8D8AA29CE525014DFB5EA31302CE4D\DEP_GLFW.RULE
 setlocal
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -144,9 +144,9 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\WOBO5\ONEDRIVE\바탕 화면\VSCODE\OPENGL\FIRST_PROJECT_EXAMPLE\CMAKELISTS.TXT
+^C:\USERS\WOBO5\VSCODE\OPENGL\FIRST_OPENGL_EXAMPLE\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example" "-BC:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build" --check-stamp-file "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/wobo5/VSCode/OpenGL/first_opengl_example -BC:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build --check-stamp-file C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

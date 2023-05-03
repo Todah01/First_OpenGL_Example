@@ -1,8 +1,8 @@
-^C:\USERS\WOBO5\ONEDRIVE\바탕 화면\VSCODE\OPENGL\FIRST_PROJECT_EXAMPLE\BUILD\CMAKEFILES\476E80BBC3977A43193002C617B7E6C7\DEP_SPDLOG-MKDIR.RULE
+^C:\USERS\WOBO5\VSCODE\OPENGL\FIRST_OPENGL_EXAMPLE\BUILD\CMAKEFILES\59D2DA44188D046C19076B3437A098EA\DEP_SPDLOG-MKDIR.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/tmp/dep_spdlog-mkdirs.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/tmp/dep_spdlog-mkdirs.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Debug/dep_spdlog-mkdir"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Debug/dep_spdlog-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -10,31 +10,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\WOBO5\ONEDRIVE\바탕 화면\VSCODE\OPENGL\FIRST_PROJECT_EXAMPLE\BUILD\CMAKEFILES\476E80BBC3977A43193002C617B7E6C7\DEP_SPDLOG-DOWNLOAD.RULE
+^C:\USERS\WOBO5\VSCODE\OPENGL\FIRST_OPENGL_EXAMPLE\BUILD\CMAKEFILES\59D2DA44188D046C19076B3437A098EA\DEP_SPDLOG-DOWNLOAD.RULE
 setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/tmp/dep_spdlog-gitclone.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/tmp/dep_spdlog-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Debug/dep_spdlog-download"
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\WOBO5\ONEDRIVE\바탕 화면\VSCODE\OPENGL\FIRST_PROJECT_EXAMPLE\BUILD\CMAKEFILES\476E80BBC3977A43193002C617B7E6C7\DEP_SPDLOG-UPDATE.RULE
-setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog"
-if %errorlevel% neq 0 goto :cmEnd
-C:
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Debug/dep_spdlog-update"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Debug/dep_spdlog-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -42,15 +26,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\WOBO5\ONEDRIVE\바탕 화면\VSCODE\OPENGL\FIRST_PROJECT_EXAMPLE\BUILD\CMAKEFILES\476E80BBC3977A43193002C617B7E6C7\DEP_SPDLOG-PATCH.RULE
+^C:\USERS\WOBO5\VSCODE\OPENGL\FIRST_OPENGL_EXAMPLE\BUILD\CMAKEFILES\59D2DA44188D046C19076B3437A098EA\DEP_SPDLOG-UPDATE.RULE
 setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Debug/dep_spdlog-patch"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Debug/dep_spdlog-update
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -58,15 +42,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\WOBO5\ONEDRIVE\바탕 화면\VSCODE\OPENGL\FIRST_PROJECT_EXAMPLE\BUILD\CMAKEFILES\476E80BBC3977A43193002C617B7E6C7\DEP_SPDLOG-CONFIGURE.RULE
+^C:\USERS\WOBO5\VSCODE\OPENGL\FIRST_OPENGL_EXAMPLE\BUILD\CMAKEFILES\59D2DA44188D046C19076B3437A098EA\DEP_SPDLOG-PATCH.RULE
 setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-build"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" "-DCMAKE_INSTALL_PREFIX=C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/install" "-GVisual Studio 16 2019" -Ax64 -Thost=x64 "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2019/Community" -S "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog" -B "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-build"
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Debug/dep_spdlog-configure"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Debug/dep_spdlog-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -74,15 +58,31 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\WOBO5\ONEDRIVE\바탕 화면\VSCODE\OPENGL\FIRST_PROJECT_EXAMPLE\BUILD\CMAKEFILES\476E80BBC3977A43193002C617B7E6C7\DEP_SPDLOG-BUILD.RULE
+^C:\USERS\WOBO5\VSCODE\OPENGL\FIRST_OPENGL_EXAMPLE\BUILD\CMAKEFILES\59D2DA44188D046C19076B3437A098EA\DEP_SPDLOG-CONFIGURE.RULE
 setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-build"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_PREFIX=C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/install "-GVisual Studio 16 2019" -Ax64 -Thost=x64 "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2019/Community" -S C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog -B C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Debug/dep_spdlog-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\WOBO5\VSCODE\OPENGL\FIRST_OPENGL_EXAMPLE\BUILD\CMAKEFILES\59D2DA44188D046C19076B3437A098EA\DEP_SPDLOG-BUILD.RULE
+setlocal
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" --build . --config Debug
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Debug/dep_spdlog-build"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Debug/dep_spdlog-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -90,15 +90,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\WOBO5\ONEDRIVE\바탕 화면\VSCODE\OPENGL\FIRST_PROJECT_EXAMPLE\BUILD\CMAKEFILES\476E80BBC3977A43193002C617B7E6C7\DEP_SPDLOG-INSTALL.RULE
+^C:\USERS\WOBO5\VSCODE\OPENGL\FIRST_OPENGL_EXAMPLE\BUILD\CMAKEFILES\59D2DA44188D046C19076B3437A098EA\DEP_SPDLOG-INSTALL.RULE
 setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-build"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" --build . --config Debug --target install
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Debug/dep_spdlog-install"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Debug/dep_spdlog-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -106,15 +106,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\WOBO5\ONEDRIVE\바탕 화면\VSCODE\OPENGL\FIRST_PROJECT_EXAMPLE\BUILD\CMAKEFILES\476E80BBC3977A43193002C617B7E6C7\DEP_SPDLOG-TEST.RULE
+^C:\USERS\WOBO5\VSCODE\OPENGL\FIRST_OPENGL_EXAMPLE\BUILD\CMAKEFILES\59D2DA44188D046C19076B3437A098EA\DEP_SPDLOG-TEST.RULE
 setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-build"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Debug/dep_spdlog-test"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Debug/dep_spdlog-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -122,13 +122,13 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\WOBO5\ONEDRIVE\바탕 화면\VSCODE\OPENGL\FIRST_PROJECT_EXAMPLE\BUILD\CMAKEFILES\CD6B57A334F928371BD7B744F0B6A921\DEP_SPDLOG-COMPLETE.RULE
+^C:\USERS\WOBO5\VSCODE\OPENGL\FIRST_OPENGL_EXAMPLE\BUILD\CMAKEFILES\05547761663F038447A9416307C48DDE\DEP_SPDLOG-COMPLETE.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/Debug"
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/Debug
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/Debug/dep_spdlog-complete"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/Debug/dep_spdlog-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Debug/dep_spdlog-done"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog-stamp/Debug/dep_spdlog-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -136,7 +136,7 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\WOBO5\ONEDRIVE\바탕 화면\VSCODE\OPENGL\FIRST_PROJECT_EXAMPLE\BUILD\CMAKEFILES\4BFC140E541C2CE65605C2018AA7B190\DEP_SPDLOG.RULE
+^C:\USERS\WOBO5\VSCODE\OPENGL\FIRST_OPENGL_EXAMPLE\BUILD\CMAKEFILES\FA8D8AA29CE525014DFB5EA31302CE4D\DEP_SPDLOG.RULE
 setlocal
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -144,9 +144,9 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\WOBO5\ONEDRIVE\바탕 화면\VSCODE\OPENGL\FIRST_PROJECT_EXAMPLE\CMAKELISTS.TXT
+^C:\USERS\WOBO5\VSCODE\OPENGL\FIRST_OPENGL_EXAMPLE\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example" "-BC:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build" --check-stamp-file "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/wobo5/VSCode/OpenGL/first_opengl_example -BC:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build --check-stamp-file C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-build/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-build/install_manifest.txt\"")
+if (NOT EXISTS "C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-build/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-build/install_manifest.txt\"")
 endif()
 
-file(READ "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-build/install_manifest.txt" files)
+file(READ "C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-build/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

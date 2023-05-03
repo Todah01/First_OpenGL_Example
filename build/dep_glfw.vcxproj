@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{BE212787-BCFD-3E2C-A539-E2BCE4887C35}</ProjectGuid>
+    <ProjectGuid>{8215381A-78B4-3ACA-A782-84CDCD4C9E8B}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -105,12 +105,12 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\a5df0dc09b53620dd7421085bfe4b3f6\dep_glfw-mkdir.rule">
+    <CustomBuild Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\ec181d7b069ccd768b725051e1de5c5e\dep_glfw-mkdir.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating directories for 'dep_glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/tmp/dep_glfw-mkdirs.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/tmp/dep_glfw-mkdirs.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-mkdir"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -119,13 +119,13 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-mkdir</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Creating directories for 'dep_glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Release -P "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/tmp/dep_glfw-mkdirs.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Release -P C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/tmp/dep_glfw-mkdirs.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Release/dep_glfw-mkdir"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Release/dep_glfw-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -134,13 +134,13 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-mkdir</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Creating directories for 'dep_glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/MinSizeRel -P "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/tmp/dep_glfw-mkdirs.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/MinSizeRel -P C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/tmp/dep_glfw-mkdirs.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/MinSizeRel/dep_glfw-mkdir"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/MinSizeRel/dep_glfw-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -149,13 +149,13 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-mkdir</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Creating directories for 'dep_glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/RelWithDebInfo -P "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/tmp/dep_glfw-mkdirs.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/RelWithDebInfo -P C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/tmp/dep_glfw-mkdirs.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/RelWithDebInfo/dep_glfw-mkdir"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/RelWithDebInfo/dep_glfw-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -164,21 +164,21 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-mkdir</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\a5df0dc09b53620dd7421085bfe4b3f6\dep_glfw-download.rule">
+    <CustomBuild Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\ec181d7b069ccd768b725051e1de5c5e\dep_glfw-download.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing download step (git clone) for 'dep_glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/tmp/dep_glfw-gitclone.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/tmp/dep_glfw-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-download"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -186,18 +186,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\dep_glfw-gitinfo.txt;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\dep_glfw-gitinfo.txt;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing download step (git clone) for 'dep_glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/tmp/dep_glfw-gitclone.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/tmp/dep_glfw-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Release/dep_glfw-download"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Release/dep_glfw-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -205,18 +205,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\dep_glfw-gitinfo.txt;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\dep_glfw-gitinfo.txt;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Performing download step (git clone) for 'dep_glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/tmp/dep_glfw-gitclone.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/tmp/dep_glfw-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/MinSizeRel/dep_glfw-download"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/MinSizeRel/dep_glfw-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -224,18 +224,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\dep_glfw-gitinfo.txt;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\dep_glfw-gitinfo.txt;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing download step (git clone) for 'dep_glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/tmp/dep_glfw-gitclone.cmake"
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/tmp/dep_glfw-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/RelWithDebInfo/dep_glfw-download"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/RelWithDebInfo/dep_glfw-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -243,22 +243,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\dep_glfw-gitinfo.txt;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\dep_glfw-gitinfo.txt;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\a5df0dc09b53620dd7421085bfe4b3f6\dep_glfw-update.rule">
+    <CustomBuild Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\ec181d7b069ccd768b725051e1de5c5e\dep_glfw-update.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No update step for 'dep_glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-update"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-update
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -266,18 +266,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No update step for 'dep_glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Release/dep_glfw-update"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Release/dep_glfw-update
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -285,18 +285,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No update step for 'dep_glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/MinSizeRel/dep_glfw-update"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/MinSizeRel/dep_glfw-update
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -304,18 +304,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No update step for 'dep_glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/RelWithDebInfo/dep_glfw-update"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/RelWithDebInfo/dep_glfw-update
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -323,22 +323,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\a5df0dc09b53620dd7421085bfe4b3f6\dep_glfw-patch.rule">
+    <CustomBuild Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\ec181d7b069ccd768b725051e1de5c5e\dep_glfw-patch.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No patch step for 'dep_glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-patch"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -346,18 +346,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-update;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No patch step for 'dep_glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Release/dep_glfw-patch"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Release/dep_glfw-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -365,18 +365,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-update;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No patch step for 'dep_glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/MinSizeRel/dep_glfw-patch"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/MinSizeRel/dep_glfw-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -384,18 +384,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-update;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No patch step for 'dep_glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/RelWithDebInfo/dep_glfw-patch"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/RelWithDebInfo/dep_glfw-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -403,22 +403,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-update;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\a5df0dc09b53620dd7421085bfe4b3f6\dep_glfw-configure.rule">
+    <CustomBuild Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\ec181d7b069ccd768b725051e1de5c5e\dep_glfw-configure.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing configure step for 'dep_glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-build"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" "-DCMAKE_INSTALL_PREFIX=C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/install" -DGLFW_BUILD_EXAMPLES=OFF -DGLFW_BUILD_TESTS=OFF -DGLFW_BUILD_DOCS=OFF "-GVisual Studio 16 2019" -Ax64 -Thost=x64 "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2019/Community" -S "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw" -B "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-build"
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_PREFIX=C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/install -DGLFW_BUILD_EXAMPLES=OFF -DGLFW_BUILD_TESTS=OFF -DGLFW_BUILD_DOCS=OFF "-GVisual Studio 16 2019" -Ax64 -Thost=x64 "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2019/Community" -S C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw -B C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-build
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-configure"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -426,18 +426,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\tmp\dep_glfw-cfgcmd.txt;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\tmp\dep_glfw-cfgcmd.txt;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing configure step for 'dep_glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-build"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" "-DCMAKE_INSTALL_PREFIX=C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/install" -DGLFW_BUILD_EXAMPLES=OFF -DGLFW_BUILD_TESTS=OFF -DGLFW_BUILD_DOCS=OFF "-GVisual Studio 16 2019" -Ax64 -Thost=x64 "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2019/Community" -S "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw" -B "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-build"
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_PREFIX=C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/install -DGLFW_BUILD_EXAMPLES=OFF -DGLFW_BUILD_TESTS=OFF -DGLFW_BUILD_DOCS=OFF "-GVisual Studio 16 2019" -Ax64 -Thost=x64 "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2019/Community" -S C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw -B C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-build
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Release/dep_glfw-configure"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Release/dep_glfw-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -445,18 +445,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\tmp\dep_glfw-cfgcmd.txt;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\tmp\dep_glfw-cfgcmd.txt;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Performing configure step for 'dep_glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-build"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" "-DCMAKE_INSTALL_PREFIX=C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/install" -DGLFW_BUILD_EXAMPLES=OFF -DGLFW_BUILD_TESTS=OFF -DGLFW_BUILD_DOCS=OFF "-GVisual Studio 16 2019" -Ax64 -Thost=x64 "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2019/Community" -S "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw" -B "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-build"
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_PREFIX=C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/install -DGLFW_BUILD_EXAMPLES=OFF -DGLFW_BUILD_TESTS=OFF -DGLFW_BUILD_DOCS=OFF "-GVisual Studio 16 2019" -Ax64 -Thost=x64 "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2019/Community" -S C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw -B C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-build
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/MinSizeRel/dep_glfw-configure"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/MinSizeRel/dep_glfw-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -464,18 +464,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\tmp\dep_glfw-cfgcmd.txt;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\tmp\dep_glfw-cfgcmd.txt;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing configure step for 'dep_glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-build"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" "-DCMAKE_INSTALL_PREFIX=C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/install" -DGLFW_BUILD_EXAMPLES=OFF -DGLFW_BUILD_TESTS=OFF -DGLFW_BUILD_DOCS=OFF "-GVisual Studio 16 2019" -Ax64 -Thost=x64 "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2019/Community" -S "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw" -B "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-build"
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_PREFIX=C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/install -DGLFW_BUILD_EXAMPLES=OFF -DGLFW_BUILD_TESTS=OFF -DGLFW_BUILD_DOCS=OFF "-GVisual Studio 16 2019" -Ax64 -Thost=x64 "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2019/Community" -S C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw -B C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-build
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/RelWithDebInfo/dep_glfw-configure"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/RelWithDebInfo/dep_glfw-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -483,22 +483,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\tmp\dep_glfw-cfgcmd.txt;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\tmp\dep_glfw-cfgcmd.txt;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\a5df0dc09b53620dd7421085bfe4b3f6\dep_glfw-build.rule">
+    <CustomBuild Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\ec181d7b069ccd768b725051e1de5c5e\dep_glfw-build.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing build step for 'dep_glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-build"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" --build . --config Debug
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-build"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -506,18 +506,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing build step for 'dep_glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-build"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" --build . --config Release
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Release/dep_glfw-build"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Release/dep_glfw-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -525,18 +525,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Performing build step for 'dep_glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-build"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" --build . --config MinSizeRel
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/MinSizeRel/dep_glfw-build"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/MinSizeRel/dep_glfw-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -544,18 +544,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing build step for 'dep_glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-build"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" --build . --config RelWithDebInfo
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/RelWithDebInfo/dep_glfw-build"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/RelWithDebInfo/dep_glfw-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -563,22 +563,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\a5df0dc09b53620dd7421085bfe4b3f6\dep_glfw-install.rule">
+    <CustomBuild Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\ec181d7b069ccd768b725051e1de5c5e\dep_glfw-install.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing install step for 'dep_glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-build"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" --build . --config Debug --target install
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-install"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -586,18 +586,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing install step for 'dep_glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-build"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" --build . --config Release --target install
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Release/dep_glfw-install"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Release/dep_glfw-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -605,18 +605,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Performing install step for 'dep_glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-build"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" --build . --config MinSizeRel --target install
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/MinSizeRel/dep_glfw-install"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/MinSizeRel/dep_glfw-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -624,18 +624,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing install step for 'dep_glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-build"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" --build . --config RelWithDebInfo --target install
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/RelWithDebInfo/dep_glfw-install"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/RelWithDebInfo/dep_glfw-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -643,22 +643,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\a5df0dc09b53620dd7421085bfe4b3f6\dep_glfw-test.rule">
+    <CustomBuild Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\ec181d7b069ccd768b725051e1de5c5e\dep_glfw-test.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No test step for 'dep_glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-build"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-test"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -666,18 +666,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-test</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-test</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No test step for 'dep_glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-build"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Release/dep_glfw-test"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Release/dep_glfw-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -685,18 +685,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-test</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-test</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No test step for 'dep_glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-build"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/MinSizeRel/dep_glfw-test"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/MinSizeRel/dep_glfw-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -704,18 +704,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-test</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-test</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No test step for 'dep_glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd "C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-build"
+cd C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/RelWithDebInfo/dep_glfw-test"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/RelWithDebInfo/dep_glfw-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -723,20 +723,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-test</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-test</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\cd6b57a334f928371bd7b744f0b6a921\dep_glfw-complete.rule">
+    <CustomBuild Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\05547761663f038447a9416307c48dde\dep_glfw-complete.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Completed 'dep_glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/Debug"
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/Debug
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/Debug/dep_glfw-complete"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/Debug/dep_glfw-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-done"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Debug/dep_glfw-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -744,16 +744,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-install;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-mkdir;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-download;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-update;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-patch;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-configure;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-build;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-test;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\Debug\dep_glfw-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-install;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-mkdir;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-download;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-update;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-patch;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-configure;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-build;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Debug\dep_glfw-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\Debug\dep_glfw-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Completed 'dep_glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/Release"
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/Release
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/Release/dep_glfw-complete"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/Release/dep_glfw-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Release/dep_glfw-done"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/Release/dep_glfw-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -761,16 +761,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-install;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-mkdir;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-download;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-update;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-patch;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-configure;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-build;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-test;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\Release\dep_glfw-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-install;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-mkdir;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-download;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-update;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-patch;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-configure;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-build;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\Release\dep_glfw-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\Release\dep_glfw-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Completed 'dep_glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/MinSizeRel"
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/MinSizeRel
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/MinSizeRel/dep_glfw-complete"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/MinSizeRel/dep_glfw-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/MinSizeRel/dep_glfw-done"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/MinSizeRel/dep_glfw-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -778,16 +778,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-install;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-mkdir;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-download;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-update;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-patch;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-configure;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-build;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-test;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\MinSizeRel\dep_glfw-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-install;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-mkdir;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-download;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-update;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-patch;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-configure;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-build;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\MinSizeRel\dep_glfw-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\MinSizeRel\dep_glfw-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Completed 'dep_glfw'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/RelWithDebInfo"
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/RelWithDebInfo
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/RelWithDebInfo/dep_glfw-complete"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/RelWithDebInfo/dep_glfw-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/src/dep_glfw-stamp/RelWithDebInfo/dep_glfw-done"
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/src/dep_glfw-stamp/RelWithDebInfo/dep_glfw-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -795,13 +795,13 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-install;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-mkdir;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-download;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-update;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-patch;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-configure;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-build;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-test;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\RelWithDebInfo\dep_glfw-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-install;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-mkdir;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-download;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-update;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-patch;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-configure;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-build;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\src\dep_glfw-stamp\RelWithDebInfo\dep_glfw-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\RelWithDebInfo\dep_glfw-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\4bfc140e541c2ce65605c2018aa7b190\dep_glfw.rule">
+    <CustomBuild Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\fa8d8aa29ce525014dfb5ea31302ce4d\dep_glfw.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 :cmEnd
@@ -810,8 +810,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\Debug\dep_glfw-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\dep_glfw</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\Debug\dep_glfw-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\dep_glfw</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
@@ -822,8 +822,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\Release\dep_glfw-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\dep_glfw</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\Release\dep_glfw-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\dep_glfw</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
@@ -834,8 +834,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\MinSizeRel\dep_glfw-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\dep_glfw</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\MinSizeRel\dep_glfw-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\dep_glfw</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
@@ -846,18 +846,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\RelWithDebInfo\dep_glfw-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\dep_glfw</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\RelWithDebInfo\dep_glfw-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\dep_glfw</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example" "-BC:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build" --check-stamp-file "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/wobo5/VSCode/OpenGL/first_opengl_example -BC:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build --check-stamp-file C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -865,12 +865,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\Dependency.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\3.26.3\CMakeCCompiler.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\3.26.3\CMakeSystem.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\tmp\dep_glfw-mkdirs.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\tmp\dep_spdlog-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\Dependency.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\3.26.3\CMakeCCompiler.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\3.26.3\CMakeSystem.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glad-prefix\tmp\dep_glad-mkdirs.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\tmp\dep_glfw-mkdirs.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\tmp\dep_spdlog-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example" "-BC:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build" --check-stamp-file "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/wobo5/VSCode/OpenGL/first_opengl_example -BC:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build --check-stamp-file C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -878,12 +878,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\Dependency.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\3.26.3\CMakeCCompiler.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\3.26.3\CMakeSystem.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\tmp\dep_glfw-mkdirs.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\tmp\dep_spdlog-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\Dependency.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\3.26.3\CMakeCCompiler.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\3.26.3\CMakeSystem.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glad-prefix\tmp\dep_glad-mkdirs.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\tmp\dep_glfw-mkdirs.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\tmp\dep_spdlog-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example" "-BC:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build" --check-stamp-file "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/wobo5/VSCode/OpenGL/first_opengl_example -BC:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build --check-stamp-file C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -891,12 +891,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\Dependency.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\3.26.3\CMakeCCompiler.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\3.26.3\CMakeSystem.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\tmp\dep_glfw-mkdirs.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\tmp\dep_spdlog-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\Dependency.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\3.26.3\CMakeCCompiler.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\3.26.3\CMakeSystem.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glad-prefix\tmp\dep_glad-mkdirs.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\tmp\dep_glfw-mkdirs.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\tmp\dep_spdlog-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example" "-BC:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build" --check-stamp-file "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/wobo5/VSCode/OpenGL/first_opengl_example -BC:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build --check-stamp-file C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -904,18 +904,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\Dependency.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\3.26.3\CMakeCCompiler.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\3.26.3\CMakeSystem.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_glfw-prefix\tmp\dep_glfw-mkdirs.cmake;C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\tmp\dep_spdlog-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.26\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\Dependency.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\3.26.3\CMakeCCompiler.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\3.26.3\CMakeCXXCompiler.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\3.26.3\CMakeRCCompiler.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\3.26.3\CMakeSystem.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glad-prefix\tmp\dep_glad-mkdirs.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glfw-prefix\tmp\dep_glfw-mkdirs.cmake;C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\tmp\dep_spdlog-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\CMakeFiles\dep_glfw">
+    <None Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\CMakeFiles\dep_glfw">
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\ZERO_CHECK.vcxproj">
-      <Project>{CB76EB78-371A-383E-976C-9CD6D10D9F45}</Project>
+    <ProjectReference Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\ZERO_CHECK.vcxproj">
+      <Project>{4C2C7C48-8D71-3613-B0A5-00276BA01D80}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

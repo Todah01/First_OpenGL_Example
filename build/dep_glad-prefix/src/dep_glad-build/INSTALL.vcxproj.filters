@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_glad-prefix\src\dep_glad-build\CMakeFiles\01c44ccdf1806ce65d8cc44ae29efcaa\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8F0E10EC-722D-39E0-8D81-5C921061CBFF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

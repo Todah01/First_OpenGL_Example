@@ -25,11 +25,12 @@ C:/Program Files/CMake/share/cmake-3.26/Modules/Platform/Windows-MSVC-CXX.cmake
 C:/Program Files/CMake/share/cmake-3.26/Modules/Platform/Windows-MSVC.cmake
 C:/Program Files/CMake/share/cmake-3.26/Modules/Platform/Windows.cmake
 C:/Program Files/CMake/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake
-C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/CMakeLists.txt
-C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/Dependency.cmake
-C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/3.26.3/CMakeCCompiler.cmake
-C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/3.26.3/CMakeCXXCompiler.cmake
-C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/3.26.3/CMakeRCCompiler.cmake
-C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/3.26.3/CMakeSystem.cmake
-C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_glfw-prefix/tmp/dep_glfw-mkdirs.cmake
-C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/tmp/dep_spdlog-mkdirs.cmake
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/CMakeLists.txt
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/Dependency.cmake
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/3.26.3/CMakeCCompiler.cmake
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/3.26.3/CMakeCXXCompiler.cmake
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/3.26.3/CMakeRCCompiler.cmake
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/3.26.3/CMakeSystem.cmake
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glad-prefix/tmp/dep_glad-mkdirs.cmake
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_glfw-prefix/tmp/dep_glfw-mkdirs.cmake
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/tmp/dep_spdlog-mkdirs.cmake

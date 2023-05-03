@@ -2,19 +2,22 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\x64\Debug\dep_glfw</FullPath>
+      <FullPath>C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\x64\Debug\dep_glad</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\x64\Debug\dep_spdlog</FullPath>
+      <FullPath>C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\x64\Debug\dep_glfw</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\Debug\first_opengl_example.exe</FullPath>
+      <FullPath>C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\x64\Debug\dep_spdlog</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\x64\Debug\ALL_BUILD</FullPath>
+      <FullPath>C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\Debug\opengl_example.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\x64\Debug\ALL_BUILD</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

@@ -1,14 +1,14 @@
 # Target labels
  dep_spdlog
 # Source files and their labels
-C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/dep_spdlog
-C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/4bfc140e541c2ce65605c2018aa7b190/dep_spdlog.rule
-C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/cd6b57a334f928371bd7b744f0b6a921/dep_spdlog-complete.rule
-C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/476e80bbc3977a43193002c617b7e6c7/dep_spdlog-build.rule
-C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/476e80bbc3977a43193002c617b7e6c7/dep_spdlog-configure.rule
-C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/476e80bbc3977a43193002c617b7e6c7/dep_spdlog-download.rule
-C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/476e80bbc3977a43193002c617b7e6c7/dep_spdlog-install.rule
-C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/476e80bbc3977a43193002c617b7e6c7/dep_spdlog-mkdir.rule
-C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/476e80bbc3977a43193002c617b7e6c7/dep_spdlog-patch.rule
-C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/476e80bbc3977a43193002c617b7e6c7/dep_spdlog-test.rule
-C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/CMakeFiles/476e80bbc3977a43193002c617b7e6c7/dep_spdlog-update.rule
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/dep_spdlog
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/fa8d8aa29ce525014dfb5ea31302ce4d/dep_spdlog.rule
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/05547761663f038447a9416307c48dde/dep_spdlog-complete.rule
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/59d2da44188d046c19076b3437a098ea/dep_spdlog-build.rule
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/59d2da44188d046c19076b3437a098ea/dep_spdlog-configure.rule
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/59d2da44188d046c19076b3437a098ea/dep_spdlog-download.rule
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/59d2da44188d046c19076b3437a098ea/dep_spdlog-install.rule
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/59d2da44188d046c19076b3437a098ea/dep_spdlog-mkdir.rule
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/59d2da44188d046c19076b3437a098ea/dep_spdlog-patch.rule
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/59d2da44188d046c19076b3437a098ea/dep_spdlog-test.rule
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/59d2da44188d046c19076b3437a098ea/dep_spdlog-update.rule

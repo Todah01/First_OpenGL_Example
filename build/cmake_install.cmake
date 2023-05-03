@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example
+# Install script for directory: C:/Users/wobo5/VSCode/OpenGL/first_opengl_example
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

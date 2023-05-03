@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/dep_spdlog-prefix/src/dep_spdlog/example
+# Install script for directory: C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/dep_spdlog-prefix/src/dep_spdlog/example
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/install")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

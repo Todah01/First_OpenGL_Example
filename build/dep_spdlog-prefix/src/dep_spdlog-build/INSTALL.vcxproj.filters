@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\wobo5\OneDrive\바탕 화면\VSCode\OpenGL\first_project_example\build\dep_spdlog-prefix\src\dep_spdlog-build\CMakeFiles\ccfbd318e82efc8fcd37c0b8ce3fafb7\INSTALL_force.rule">
+    <CustomBuild Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\dep_spdlog-prefix\src\dep_spdlog-build\CMakeFiles\af11277684d7a4c3d676a7de305d115a\INSTALL_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{062D29FE-7041-3A66-BAC6-5047DAD66C44}</UniqueIdentifier>
+      <UniqueIdentifier>{3C407F52-A828-3428-B6F6-FAFE3CF52109}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

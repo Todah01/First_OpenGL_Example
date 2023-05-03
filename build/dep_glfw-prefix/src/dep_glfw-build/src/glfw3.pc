@@ -1,7 +1,7 @@
-prefix=C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/install
+prefix=C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/install
 exec_prefix=${prefix}
-includedir=C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/install/include
-libdir=C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/install/lib
+includedir=C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/install/include
+libdir=C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/install/lib
 
 Name: GLFW
 Description: A multi-platform library for OpenGL, window and input

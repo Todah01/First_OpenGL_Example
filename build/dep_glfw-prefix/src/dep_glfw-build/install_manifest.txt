@@ -1,8 +1,8 @@
-C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/install/lib/glfw3.lib
-C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/install/include/GLFW/glfw3.h
-C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/install/include/GLFW/glfw3native.h
-C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/install/lib/cmake/glfw3/glfw3Config.cmake
-C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/install/lib/cmake/glfw3/glfw3ConfigVersion.cmake
-C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/install/lib/cmake/glfw3/glfw3Targets.cmake
-C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/install/lib/cmake/glfw3/glfw3Targets-debug.cmake
-C:/Users/wobo5/OneDrive/바탕 화면/VSCode/OpenGL/first_project_example/build/install/lib/pkgconfig/glfw3.pc
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/install/lib/glfw3.lib
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/install/include/GLFW/glfw3.h
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/install/include/GLFW/glfw3native.h
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/install/lib/cmake/glfw3/glfw3Config.cmake
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/install/lib/cmake/glfw3/glfw3ConfigVersion.cmake
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/install/lib/cmake/glfw3/glfw3Targets.cmake
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/install/lib/cmake/glfw3/glfw3Targets-debug.cmake
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/install/lib/pkgconfig/glfw3.pc

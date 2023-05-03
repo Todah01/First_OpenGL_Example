@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/dep_glad"
+		},
+		{
+			"file" : "C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/fa8d8aa29ce525014dfb5ea31302ce4d/dep_glad.rule"
+		},
+		{
+			"file" : "C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/05547761663f038447a9416307c48dde/dep_glad-complete.rule"
+		},
+		{
+			"file" : "C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/427a8f2f5921059c0a071ca8292ec9b9/dep_glad-build.rule"
+		},
+		{
+			"file" : "C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/427a8f2f5921059c0a071ca8292ec9b9/dep_glad-configure.rule"
+		},
+		{
+			"file" : "C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/427a8f2f5921059c0a071ca8292ec9b9/dep_glad-download.rule"
+		},
+		{
+			"file" : "C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/427a8f2f5921059c0a071ca8292ec9b9/dep_glad-install.rule"
+		},
+		{
+			"file" : "C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/427a8f2f5921059c0a071ca8292ec9b9/dep_glad-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/427a8f2f5921059c0a071ca8292ec9b9/dep_glad-patch.rule"
+		},
+		{
+			"file" : "C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/427a8f2f5921059c0a071ca8292ec9b9/dep_glad-test.rule"
+		},
+		{
+			"file" : "C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/427a8f2f5921059c0a071ca8292ec9b9/dep_glad-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"dep_glad"
+		],
+		"name" : "dep_glad"
+	}
+}
