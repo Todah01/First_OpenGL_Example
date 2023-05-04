@@ -10,12 +10,36 @@
     <ClCompile Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\src\shader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\src\program.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\src\context.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\src\buffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\src\vertex_layout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\src\common.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\src\shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\src\program.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\src\context.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\src\buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\src\vertex_layout.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

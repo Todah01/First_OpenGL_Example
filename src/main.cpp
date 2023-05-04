@@ -1,5 +1,5 @@
-#include "common.h"
-#include "shader.h"
+#include "context.h"
+
 #include <spdlog/spdlog.h>
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
@@ -10,8 +10,7 @@ void OnFramebufferSizeChange(GLFWwindow* window, int width, int height) {
 }
 
 // keyboard 이벤트를 설정하는 함수. , mods는 수정한다는 것을 뜻한다.
-void OnKeyEvent(GLFWwindow* window,
-    int key, int scancode, int action, int mods) {
+void OnKeyEvent(GLFWwindow* window, int key, int scancode, int action, int mods) {
     SPDLOG_INFO("key: {}, scancode: {}, action: {}, mods: {}{}{}",
         key, scancode,
         action == GLFW_PRESS ? "Pressed" :
@@ -61,10 +60,12 @@ int main(int argc, const char** argv){
     auto glVersion = glGetString(GL_VERSION);
     SPDLOG_INFO("OpenGL context version: {}", (const char*)glVersion);
 
-    auto vertexShader = Shader::CreateFromFile("./shader/simple.vs", GL_VERTEX_SHADER);
-    auto fragmentShader = Shader::CreateFromFile("./shader/simple.fs", GL_FRAGMENT_SHADER);
-    SPDLOG_INFO("vertex shader id: {}", vertexShader->Get());
-    SPDLOG_INFO("fragment shader id: {}", fragmentShader->Get());
+    auto context = Context::Create();
+    if (!context) {
+        SPDLOG_ERROR("failed to create context");
+        glfwTerminate();
+        return -1;
+    }
 
     OnFramebufferSizeChange(window, WINDOW_WIDTH, WINDOW_HEIGHT);
     glfwSetFramebufferSizeCallback(window, OnFramebufferSizeChange);
@@ -74,10 +75,11 @@ int main(int argc, const char** argv){
     SPDLOG_INFO("Start main loop");
     while (!glfwWindowShouldClose(window)) {
         glfwPollEvents();
-        glClearColor(0.0f, 0.1f, 0.2f, 0.0f);
-        glClear(GL_COLOR_BUFFER_BIT);
+        context->Render();
         glfwSwapBuffers(window);
     }
+    context.reset();
+    // context = nullptr;
 
     glfwTerminate();
     return 0;

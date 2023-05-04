@@ -18,7 +18,7 @@ bool Shader::LoadFile(const std::string& filename, GLenum shaderType) {
     if (!result.has_value())
         return false;
 
-    auto& code = result.value(); // &를 붙이지 않는다면 value() 의 메모리 카피가 일어난다.
+    auto& code = result.value(); // &를 붙이지 않는다면 value() 의 메모리 카피가 일어난다. 레퍼런스 타입은 메모리를 할당받지 않기때문에 단순히 주소만 가르키기때문.
     const char* codePtr = code.c_str();
     int32_t codeLength = (int32_t)code.length();
 

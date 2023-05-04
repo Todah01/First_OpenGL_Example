@@ -322,6 +322,14 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\src\common.h" />
     <ClCompile Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\src\shader.cpp" />
     <ClInclude Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\src\shader.h" />
+    <ClCompile Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\src\program.cpp" />
+    <ClInclude Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\src\program.h" />
+    <ClCompile Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\src\context.cpp" />
+    <ClInclude Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\src\context.h" />
+    <ClCompile Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\src\buffer.cpp" />
+    <ClInclude Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\src\buffer.h" />
+    <ClCompile Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\src\vertex_layout.cpp" />
+    <ClInclude Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\src\vertex_layout.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\ZERO_CHECK.vcxproj">
