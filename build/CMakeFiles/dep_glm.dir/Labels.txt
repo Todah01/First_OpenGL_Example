@@ -1,0 +1,14 @@
+# Target labels
+ dep_glm
+# Source files and their labels
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/dep_glm
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/fa8d8aa29ce525014dfb5ea31302ce4d/dep_glm.rule
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/05547761663f038447a9416307c48dde/dep_glm-complete.rule
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/00df061f88c51dfa1929a62ef35b2d74/dep_glm-build.rule
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/00df061f88c51dfa1929a62ef35b2d74/dep_glm-configure.rule
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/00df061f88c51dfa1929a62ef35b2d74/dep_glm-download.rule
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/00df061f88c51dfa1929a62ef35b2d74/dep_glm-install.rule
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/00df061f88c51dfa1929a62ef35b2d74/dep_glm-mkdir.rule
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/00df061f88c51dfa1929a62ef35b2d74/dep_glm-patch.rule
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/00df061f88c51dfa1929a62ef35b2d74/dep_glm-test.rule
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/00df061f88c51dfa1929a62ef35b2d74/dep_glm-update.rule

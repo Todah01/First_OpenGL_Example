@@ -1,0 +1,14 @@
+# Target labels
+ dep_stb
+# Source files and their labels
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/dep_stb
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/fa8d8aa29ce525014dfb5ea31302ce4d/dep_stb.rule
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/05547761663f038447a9416307c48dde/dep_stb-complete.rule
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/a394820417ffbec9d534406a7d19cd09/dep_stb-build.rule
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/a394820417ffbec9d534406a7d19cd09/dep_stb-configure.rule
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/a394820417ffbec9d534406a7d19cd09/dep_stb-download.rule
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/a394820417ffbec9d534406a7d19cd09/dep_stb-install.rule
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/a394820417ffbec9d534406a7d19cd09/dep_stb-mkdir.rule
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/a394820417ffbec9d534406a7d19cd09/dep_stb-patch.rule
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/a394820417ffbec9d534406a7d19cd09/dep_stb-test.rule
+C:/Users/wobo5/VSCode/OpenGL/first_opengl_example/build/CMakeFiles/a394820417ffbec9d534406a7d19cd09/dep_stb-update.rule
