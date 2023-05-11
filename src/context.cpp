@@ -1,5 +1,6 @@
 #include "context.h"
 #include "image.h"
+#include <imgui.h>
 
 ContextUPtr Context::Create() {
     auto context = ContextUPtr(new Context());
@@ -159,33 +160,28 @@ bool Context::Init() {
     m_program->SetUniform("tex", 0);
     m_program->SetUniform("tex2", 1);
 
-    // // 위치 (1, 0, 0)의 점. 동차좌표계 사용
-    // glm::vec4 vec(1.0f,  0.0f, 0.0f, 1.0f);
-    // // 단위행렬 기준 (1, 1, 0)만큼 평행이동하는 행렬
-    // auto trans = glm::translate(glm::mat4(1.0f), glm::vec3(1.0f, 1.0f, 0.0f));
-    // // 단위행렬 기준 z축으로 90도만큼 회전하는 행렬
-    // auto rot = glm::rotate(glm::mat4(1.0f), glm::radians(90.0f), glm::vec3(0.0f, 0.0f, 1.0f));
-    // // 단위행렬 기준 모든 축에 대해 3배율 확대하는 행렬
-    // auto scale = glm::scale(glm::mat4(1.0f), glm::vec3(3.0f));
-    // // 확대 -> 회전 -> 평행이동 순으로 점에 선형 변환 적용
-    // vec = trans * rot * scale * vec;
-
-    // // (3, 0, 0) => (0, 3, 0) => (1, 4, 0)
-    // SPDLOG_INFO("transformed vec: [{}, {}, {}]", vec.x, vec.y, vec.z);
-
-    // // x축으로 -55도 회전
-    // auto model = glm::rotate(glm::mat4(1.0f), glm::radians(-55.0f), glm::vec3(1.0f, 0.0f, 0.0f));
-    // // 카메라는 원점으로부터 z축 방향으로 -3만큼 떨어짐
-    // auto view = glm::translate(glm::mat4(1.0f), glm::vec3(0.0f, 0.0f, -3.0f));
-    // // 종횡비 4:3, 세로화각 45도의 원근 투영
-    // auto projection = glm::perspective(glm::radians(45.0f), (float)WINDOW_WIDTH / (float)WINDOW_HEIGHT, 0.01f, 10.0f);
-    // auto transform = projection * view * model;
-    // m_program->SetUniform("transform", transform);
-
     return true;
 }
 
 void Context::Render() {
+
+    if (ImGui::Begin("ui window")) {
+        if(ImGui::ColorEdit4("clear color", glm::value_ptr(m_clearColor))){
+            glClearColor(m_clearColor.x, m_clearColor.y, m_clearColor.z, m_clearColor.w);
+        }
+        ImGui::Separator();
+        ImGui::DragFloat3("camera pos", glm::value_ptr(m_cameraPos), 0.01f);
+        ImGui::DragFloat("camera yaw", &m_cameraYaw, 0.5f);
+        ImGui::DragFloat("camera pitch", &m_cameraPitch, 0.5f, -89.0f, 89.0f);
+        ImGui::Separator();
+        if(ImGui::Button("reset camera")){
+            m_cameraYaw = 0.0f;
+            m_cameraPitch = 0.0f;
+            m_cameraPos = glm::vec3(0.0f, 0.0f, 3.0f);
+        }
+    }
+    ImGui::End();
+
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     glEnable(GL_DEPTH_TEST);
     m_program->Use();

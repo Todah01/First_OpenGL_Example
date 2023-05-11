@@ -203,6 +203,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\imgui.vcxproj">
+      <Project>{8A851885-B847-35BA-90C6-E7311964B2C5}</Project>
+      <Name>imgui</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\wobo5\VSCode\OpenGL\first_opengl_example\build\opengl_example.vcxproj">
       <Project>{9B9E78E0-DB15-334A-A156-D7A4DE2307FD}</Project>
       <Name>opengl_example</Name>
