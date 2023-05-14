@@ -1,6 +1,7 @@
 {
     "files.associations": {
-        "chrono": "cpp"
+        "chrono": "cpp",
+        "vector": "cpp"
     },
 
     "cmake.debugConfig": {
